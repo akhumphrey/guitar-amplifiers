@@ -9,7 +9,7 @@
   <RunScript=0>
   <showFrame=3>
   <FrameText0=1224 Amplifier>
-  <FrameText1=Drawn By: A Humphrey>
+  <FrameText1=Drawn By: @akhumphrey>
   <FrameText2=Date: 2023-12>
   <FrameText3=Revision: 3>
 </Properties>
