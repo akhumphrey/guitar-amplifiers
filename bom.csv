@@ -1,50 +1,28 @@
-type,name,size,power rating,notes
-Resistors,R1,1 M,,
-,R2,68 K,,
-,R3,100 K,,
-,R4,2.2 K,,
-,R5,68 K,,
-,R6,100 K,,
-,R7,2.2 K,,
-,R8,68 K,,
-,R9,100 K,,
-,R10,2.2 K,,
-,R11,56 K,,
-,R12,68 K,,
-,R13,100 K,,
-,R14,2.2 K,,
-,R15,100 O,1 W,
-,R16,750 O,10 W,
-,R17,750 O,5 W,
-,R18,68 K,,
-,R19,500 K,,
-,R20,470 O,1 W,
-,R21,470 O,3 W,
-,,,,
-Capacitors,C1,10 uF,25 V,
-,C2,220 nF,600 V,
-,C3,10 uF,25 V,
-,C4,220 nF,600 V,
-,C5,10 uF,25 V,
-,C6,220 nF,600 V,
-,C7,250 pF,,
-,C8,20 nF,400 V,
-,C9,20 nF,400 V,
-,C10,10 uF,25 V,
-,C11,220 nF,600 V,
-,C12,25 uF,25 V,
-,C13,5 nF,600 V,
-,C14,40 uF,,
-,C15,40 uF,,
-,C16,20 uF,,
-,,,,
-Potentiometers,Gain,1 M,,
-,Treble,250 K,,
-,Middle,25 K,,
-,Bass,1 M,,
-,Volume,1 M,,
-,,,,
-Tubes,V1,7F7,,
-,V2,7F7,,
-,V3,7C5,,
-,V4,7Y4,,
+name,value,rating,,name,value,rating
+R1,1 M,1 W,,C1,10 uF electrolytic,25 V
+R2,68 K,1 W,,C2,220 nF,600 V
+R3,100 K,2 W,,C3,10 uF electrolytic,25 V
+R4,2.2 K,1 W,,C4,220 nF,600 V
+R5,68 K,1 W,,C5,10 uF electrolytic,25 V
+R6,100 K,2 W,,C6,220 nF,600 V
+R7,2.2 K,1 W,,C7,250 pF,500 V
+R8,68 K,1 W,,C8,20 nF,400 V
+R9,100 K,2 W,,C9,20 nF,400 V
+R10,2.2 K,1 W,,C10,10 uF electrolytic,25 V
+R11,56 K,1 W,,C11,220 nF,600 V
+R12,68 K,1 W,,C12,25 uF electrolytic,50 V
+R13,100 K,2 W,,C13,5 nF,600 V
+R14,2.2 K,1 W,,C14,40 uF electrolytic,450 V
+R15,100 O,2 W,,C15,40 uF electrolytic,450 V
+R16,750 O,5 W,,C16,20 uF electrolytic,450 V
+R17,750 O,10 W,,,,
+R18,68 K,1 W,,,,
+R19,500 K,1 W,,,,
+R20,470 O,1 W,,,,
+R21,470 O,3 W,,,,
+,,,,,,
+Gain,1 M Log,,,V1,7F7,
+Treble,250 K Lin,,,V2,7F7,
+Middle,25 K Lin,,,V3,7C5,
+Bass,1 M Lin,,,V4,7Y4,
+Volume,1 M Log,,,,,

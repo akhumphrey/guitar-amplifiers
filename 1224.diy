@@ -529,7 +529,7 @@
       <moveLabel>false</moveLabel>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -600,7 +600,7 @@
       <moveLabel>false</moveLabel>
       <value value="0.22" unit="uF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="600.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -647,7 +647,7 @@
       <moveLabel>false</moveLabel>
       <value value="2.2" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -696,7 +696,7 @@
       <moveLabel>false</moveLabel>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1094,7 +1094,7 @@
       <moveLabel>false</moveLabel>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1255,7 +1255,7 @@
       <moveLabel>false</moveLabel>
       <value value="2.2" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1280,7 +1280,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="0.22" unit="uF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="450.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -1306,7 +1306,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1318,30 +1318,6 @@
       <point x="8.4" y="2.5"/>
       <value></value>
     </diylc.connectivity.Eyelet>
-    <diylc.passive.RadialCeramicDiskCapacitor>
-      <name>C7</name>
-      <alpha>127</alpha>
-      <length value="0.25" unit="in"/>
-      <width value="0.125" unit="in"/>
-      <points>
-        <point x="7.5" y="3.1"/>
-        <point x="8.4" y="3.0"/>
-        <point x="7.949999999999999" y="3.05"/>
-      </points>
-      <bodyColor hex="f0e68c"/>
-      <borderColor hex="a8a162"/>
-      <labelColor hex="000000"/>
-      <leadColor hex="cccccc"/>
-      <display>BOTH</display>
-      <flipStanding>false</flipStanding>
-      <labelOriantation>Directional</labelOriantation>
-      <moveLabel>false</moveLabel>
-      <hideShortLeads>false</hideShortLeads>
-      <pinSpacing value="0.1" unit="in"/>
-      <value value="250.0" unit="pF"/>
-      <voltage>_63V</voltage>
-      <voltageNew value="400.0" unit="V"/>
-    </diylc.passive.RadialCeramicDiskCapacitor>
     <diylc.connectivity.HookupWire>
       <name>W33</name>
       <alpha>127</alpha>
@@ -1412,9 +1388,9 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="20.0" unit="nF"/>
+      <value value="22.0" unit="nF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="400.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -1438,9 +1414,9 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="20.0" unit="nF"/>
+      <value value="22.0" unit="nF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="400.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -1570,7 +1546,7 @@
       <moveLabel>false</moveLabel>
       <value value="2.2" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1620,7 +1596,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="0.22" unit="uF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="600.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -1785,7 +1761,7 @@
       <moveLabel>false</moveLabel>
       <value value="2.2" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -1827,7 +1803,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="56.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -2230,7 +2206,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="0.22" unit="uF"/>
       <voltage>_63V</voltage>
-      <voltageNew value="600.0" unit="V"/>
+      <voltageNew value="630.0" unit="V"/>
       <markerColor hex="808080"/>
       <tickColor hex="ffffff"/>
       <polarized>false</polarized>
@@ -2256,7 +2232,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -2281,7 +2257,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="500.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.25" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -2330,7 +2306,7 @@
       <moveLabel>false</moveLabel>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -2800,7 +2776,7 @@
         <point x="2.4" y="1.7"/>
         <point x="2.7" y="1.6"/>
       </controlPoints2>
-      <color hex="00ff00"/>
+      <color hex="009900"/>
       <pointCount>THREE</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
@@ -3363,7 +3339,7 @@
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
-      <color2 hex="00ff00"/>
+      <color2 hex="009900"/>
       <stripeColor hex="ffff00"/>
       <stripeColor2 hex="ff00ff"/>
       <stripe1>false</stripe1>
@@ -3629,7 +3605,7 @@
     <diylc.misc.Label>
       <name>LAB6</name>
       <point x="0.3" y="3.1"/>
-      <text>HV Center Tap</text>
+      <text>High Voltage Secondary Center Tap</text>
       <font name="Open Sans Regular" size="14" style="0"/>
       <color hex="ff0000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -3873,7 +3849,7 @@
       <moveLabel>false</moveLabel>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="2.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -3898,7 +3874,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="2.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -3959,7 +3935,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="2.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -3984,7 +3960,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <powerNew value="0.5" unit="W"/>
+      <powerNew value="2.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
@@ -4014,6 +3990,30 @@
       <colorCode>_4_BAND</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.passive.RadialMicaCapacitor>
+      <name>C7</name>
+      <alpha>127</alpha>
+      <length value="9.9" unit="mm"/>
+      <width value="5.6" unit="mm"/>
+      <points>
+        <point x="7.5" y="3.1"/>
+        <point x="8.4" y="3.0"/>
+        <point x="7.95" y="3.05"/>
+      </points>
+      <bodyColor hex="876a6c"/>
+      <borderColor hex="5e4a4b"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>BOTH</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="3.6" unit="mm"/>
+      <type>Cornell Dubilier CD10 (3.6mm)</type>
+      <value value="250.0" unit="pF"/>
+      <voltage value="500.0" unit="V"/>
+    </diylc.passive.RadialMicaCapacitor>
     <diylc.connectivity.HookupWire>
       <name>W25</name>
       <alpha>127</alpha>
@@ -4060,35 +4060,45 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB23</name>
+      <point x="3.0" y="6.2"/>
+      <text>300v</text>
+      <font name="Open Sans Regular" size="18" style="0"/>
+      <color hex="cc0033"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups>
     <set>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[6]"/>
-    </set>
-    <set>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
       <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[54]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
+    </set>
+    <set>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[5]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
     </set>
   </groups>
   <lockedLayers>
