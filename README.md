@@ -40,11 +40,13 @@ I have opted to ground the first filter capacitor separately, as close as possib
 
 ### Preamp
 
-The preamp is comprised of a chain of cascading gain stages, provided by two 7F7 dual triode tubes. The circuit input could be described as a single-jack implementation of in a style typical of many vintage Fender amplifiers:
+The preamp is comprised of a chain of cascading gain stages, provided by two 7F7 dual triode tubes. The circuit input could be described as a single-jack implementation of a style typical of many vintage Fender amplifiers:
 - R2 (68K) provides grid stopper duties for the first gain stage; and
 - R1 (1M) provides a high impedance to the source.
 
-A potentiometer is inserted between the first two gain stages (to act as a Gain control), and another potentiometer is inserted between the last gain stage and the power tube grid (to act as a Master Volume).
+I've also used 68K grid stopper resistors through the rest of the gain stages too, though I suspect that will need tweaking.
+
+A potentiometer is inserted between the first two gain stages (to act as a Gain control), and another potentiometer is inserted between the last gain stage and the power tube grid (to act as a Master Volume). I suspect my wiring for the gain knob may be backwards, based on my initial investigation into drawing load lines for the 7F7.
 
 A three band tone circuit - lifted from the classic [Fender Bassman (5F6-A)](https://en.wikipedia.org/wiki/Fender_Bassman) and modified only very slightly - is added after the third gain stage, with the last gain stage intended to reclaim some of the losses incurred by the tone circuit.
 
@@ -54,7 +56,7 @@ What I'm left with is an untested prototype circuit which should **not** be cons
 
 ## References
 
-I took a lot of learning and guidance from other "similar" schematics and the writing of much more learned individuals while coming up with this design. I stand upon the shoulders of giants, and they are mentioned here in no particular order:
+I took a lot of learning and guidance from other "similar" schematics and the teaching of much more learned individuals while coming up with this design. I stand upon the shoulders of giants, and they are mentioned here in no particular order:
 
 ### General
 
