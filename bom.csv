@@ -1,15 +1,15 @@
 name,value,rating,,name,value,rating
 R1,1 M,1 W,,C1,10 uF electrolytic,25 V
-R2,68 K,1 W,,C2,220 nF,600 V
+R2,68 K,1 W,,C2,220 nF,630 V
 R3,100 K,2 W,,C3,10 uF electrolytic,25 V
-R4,2.2 K,1 W,,C4,220 nF,600 V
+R4,2.2 K,1 W,,C4,220 nF,630 V
 R5,68 K,1 W,,C5,10 uF electrolytic,25 V
-R6,100 K,2 W,,C6,220 nF,600 V
+R6,100 K,2 W,,C6,220 nF,630 V
 R7,2.2 K,1 W,,C7,250 pF,500 V
-R8,68 K,1 W,,C8,20 nF,400 V
-R9,100 K,2 W,,C9,20 nF,400 V
+R8,68 K,1 W,,C8,22 nF,630 V
+R9,100 K,2 W,,C9,22 nF,630 V
 R10,2.2 K,1 W,,C10,10 uF electrolytic,25 V
-R11,56 K,1 W,,C11,220 nF,600 V
+R11,56 K,1 W,,C11,220 nF,630 V
 R12,68 K,1 W,,C12,25 uF electrolytic,50 V
 R13,100 K,2 W,,C13,5 nF,600 V
 R14,2.2 K,1 W,,C14,40 uF electrolytic,450 V
@@ -17,7 +17,7 @@ R15,100 O,2 W,,C15,40 uF electrolytic,450 V
 R16,750 O,5 W,,C16,20 uF electrolytic,450 V
 R17,750 O,10 W,,,,
 R18,68 K,1 W,,,,
-R19,500 K,1 W,,,,
+R19,510 K,1 W,,,,
 R20,470 O,1 W,,,,
 R21,470 O,3 W,,,,
 ,,,,,,

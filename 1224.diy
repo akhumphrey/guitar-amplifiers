@@ -2255,7 +2255,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="500.0" unit="K"/>
+      <value value="510.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
@@ -4075,32 +4075,32 @@
   </components>
   <groups>
     <set>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[54]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[5]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[6]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[5]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
       <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.connectivity.HookupWire reference="../../../components/diylc.connectivity.HookupWire[54]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[9]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[8]"/>
     </set>
   </groups>
   <lockedLayers>
