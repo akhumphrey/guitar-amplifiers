@@ -46,7 +46,7 @@ The preamp is comprised of a chain of cascading gain stages, provided by two 7F7
 
 I've also used 68K grid stopper resistors through the rest of the gain stages too, though I suspect that will need tweaking.
 
-A potentiometer is inserted between the first two gain stages (to act as a Gain control), and another potentiometer is inserted between the last gain stage and the power tube grid (to act as a Master Volume). I suspect my wiring for the gain knob may be backwards, based on my initial investigation into drawing load lines for the 7F7.
+A potentiometer is inserted between the first two gain stages (to act as a Gain control), and another potentiometer is inserted between the last gain stage and the power tube grid (to act as a Master Volume). I suspect my wiring for the Gain potentiometer may be backwards, based on my initial investigation into drawing load lines for the 7F7.
 
 A three band tone circuit - lifted from the classic [Fender Bassman (5F6-A)](https://en.wikipedia.org/wiki/Fender_Bassman) and modified only very slightly - is added after the third gain stage, with the last gain stage intended to reclaim some of the losses incurred by the tone circuit.
 
