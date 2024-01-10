@@ -1,6 +1,6 @@
 # 1224 Amplifier
 
-![layout](layout.png)
+[![layout](layout.png)](layout.pdf)
 
 This repository contains the source files for a tube amplifier as I go through the process of designing and building the prototype.
 
