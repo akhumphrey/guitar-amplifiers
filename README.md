@@ -1,6 +1,6 @@
 # 1224 Amplifier
 
-[![layout](layout.png)](layout.pdf)
+[![layout](layout-main.png)](layout-main.pdf)
 
 This repository contains the source files for a tube amplifier as I go through the process of designing and building the prototype.
 
@@ -16,12 +16,17 @@ I am a complete novice at this electronics thing, so this repository also serves
 
 ![schematic](schematic.png)
 
-- [1224.sch](1224.sch) - the schematic, in [Qucs-S](https://ra3xdh.github.io/) format.
-- [schematic.png](schematic.png) - an image render of the schematic, as seen above.
-- [bom.csv](bom.csv) - a simple Bill of Materials.
-- [1224.diy](1224.diy) - the chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format.
-- [layout.png](layout.png) - an image render of the layout, as seen at the top of this README.
-- [layout.pdf](layout.pdf) - a vector PDF render of the same layout.
+- [bom.csv](bom.csv) - a simple Bill of Materials for the major components (excludes wiring, transformers, and off-board hardware).
+- [layout-main.diy](layout-main.diy) - the main chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format. This layout includes the eyelet board, all components, all off-board wiring, all hardware and both transformers. The eyelet colours indicate their purpose:
+  - blue - standard eyelets, every component or wire which arrives at these junctions are electrically connected.
+  - red - similar to blue eyelets, red eyelets just indicate the B+ voltage test points. These same points correlate with the labelled B+ test points also given in the [schematic](schematic.sch).
+  - white - these eyelets act as holes for wiring to pass through to the underside of the eyelet board **without making an electrical connection to the eyelet**. The intent is to keep the eyelet board free from fly wires running over the top of components, whilst keeping the wiring as tidy as possible.
+- [layout-main.pdf](layout-main.pdf) - a vector PDF render of the main chassis layout, exported from DIY Layout Creator.
+- [layout-main.png](layout-main.png) - an image render of the main layout, as seen at the top of this README.
+- [layout-underside.diy](layout-underside.diy) - this is an isolated layout of just the eyelet board, **shown from the underside**. This layout _only_ includes the eyelet board (which has been flipped horizontally), all underside jumper wires (or wires which have passed through from above the eyelet board), and the large off-board 750&#8486; resistor (because it connects to the underside of the board). All other components, off-board wiring, transformers and hardware are excluded for clarity.
+- [layout-underside.pdf](layout-underside.pdf) - a vector PDF render of the isolated underside board layout, exported from DIY Layout Creator.
+- [schematic.sch](schematic.sch) - the schematic, in [Qucs-S](https://ra3xdh.github.io/) format.
+- [schematic.png](schematic.png) - an image render of the schematic, as seen at the top of this section.
 
 ## Design goals
 
