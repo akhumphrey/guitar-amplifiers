@@ -2,8 +2,8 @@
 <Properties>
   <View=40,190,1610,1300,2.0634,1512,209>
   <Grid=10,10,1>
-  <DataSet=1224.dat>
-  <DataDisplay=1224.dpl>
+  <DataSet=schematic.dat>
+  <DataDisplay=schematic.dpl>
   <OpenDisplay=0>
   <Script=v3-flipped-filters.m>
   <RunScript=0>
