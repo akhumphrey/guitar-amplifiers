@@ -1,28 +1,22 @@
 name,value,rating,,name,value,rating
 R1,1 M,1 W,,C1,10 uF electrolytic,25 V
-R2,68 K,1 W,,C2,220 nF,630 V
-R3,100 K,2 W,,C3,10 uF electrolytic,25 V
-R4,2.2 K,1 W,,C4,220 nF,630 V
-R5,68 K,1 W,,C5,10 uF electrolytic,25 V
-R6,100 K,2 W,,C6,220 nF,630 V
-R7,2.2 K,1 W,,C7,250 pF,500 V
-R8,68 K,1 W,,C8,22 nF,630 V
-R9,100 K,2 W,,C9,22 nF,630 V
-R10,2.2 K,1 W,,C10,10 uF electrolytic,25 V
-R11,56 K,1 W,,C11,220 nF,630 V
-R12,68 K,1 W,,C12,25 uF electrolytic,50 V
-R13,100 K,2 W,,C13,5 nF,600 V
-R14,2.2 K,1 W,,C14,40 uF electrolytic,450 V
-R15,100 O,2 W,,C15,40 uF electrolytic,450 V
-R16,750 O,5 W,,C16,20 uF electrolytic,450 V
-R17,750 O,10 W,,,,
-R18,68 K,1 W,,,,
-R19,510 K,1 W,,,,
-R20,470 O,1 W,,,,
-R21,470 O,3 W,,,,
+R2,33 K,1 W,,C2,0.022 uF,630 V
+R3,100 K,2 W,,C3,430 pF,25 V
+R4,2.2 K,1 W,,C4,5000 pF,25 V
+R5,33 K,1 W,,C5,10 uF electrolytic,25 V
+R6,100 K,2 W,,C6,0.022 uF,630 V
+R7,2.2 K,1 W,,C7,25 uF electrolytic,50 V
+R8,10 K,1 W,,C8,5 nF,600 V
+R9,33 K,1 W,,C9,20 uF electrolytic,450 V
+R10,470 O,1 W,,C10,40 uF electrolytic,450 V
+R11,510 K,1 W,,C11,40 uF electrolytic,450 V
+R12,470 O,1 W,,,,
+R13,750 O,5 W,,,,
+R14,750 O,10 W,,,,
+R15,820 O,3 W,,,,
 ,,,,,,
-Gain,1 M Log,,,V1,7F7,
-Treble,250 K Lin,,,V2,7F7,
-Middle,25 K Lin,,,V3,7C5,
-Bass,1 M Lin,,,V4,7Y4,
-Volume,1 M Log,,,,,
+,,,,,,
+Volume,1 M Log,,,V1,7F7,
+Tone,1 M Lin,,,V2,7C5,
+NFB,50 K Lin,,,V3,7Y4,
+,,,,,,
