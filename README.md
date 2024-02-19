@@ -32,32 +32,34 @@ I am a complete novice at this electronics thing, so this repository also serves
 
 ### Power
 
-In my lack of experience, I've used as much as possible from existing schematics. The power supply, rectification, filtering and output stages have been lifted almost exactly from the original schematic. The only significant deviations from the original in this section are:
+In my lack of experience, I've used as much as possible from existing schematics. The power supply, rectification, filtering and output stages have been lifted from the original schematic and modified as necessary. Key changes include:
 
-- replacing the three capacitor can with individual capacitors of the same value and rating; and
-- replacing the 1500 Ω, centre-tapped power resistor with two 750 Ω resistors (of appropriate power dissipation) in series.
+- replacing the three capacitor can with individual capacitors of the same value and rating - a cost-saving measure;
+- replacing the 1500 Ω, centre-tapped power resistor with two 750 Ω resistors (of appropriate power dissipation) in series - another cost-saving measure;
+- replacing the 100 Ω, 1 Watt voltage dropping resistor (R15) with an 820 Ω, 3 Watt resistor - the original design was clearly intended for a lower mains voltage than is present today, so this was necessary to bring the much higher B+ back down to reasonable levels;
+- added two UF4007 diodes between the high voltage secondary winding and the rectifier tube - an effort in catastrophe protection in case the rectifier fails.
 
-This is simply to reduce costs and make the final amplifier more serviceable in future.
-
-A minor deviation from the original is to separate the grounding of the filter capacitors. In the original schematic, the three capacitor can is grounded, but it isn't clear exactly where the component is actually grounded within the chassis.
+A further minor deviation from the original design is to separate the grounding of the filter capacitors. In the original schematic, the three capacitor can is grounded, but it isn't clear exactly where the component is actually grounded within the chassis.
 
 I have opted to ground the first filter capacitor separately, as close as possible to the power transformer's high voltage secondary center tap. The remaining filter capacitors have been attached to the preamp's ground rail, which eventually gets grounded at a chassis lug near the input jack.
 
 ### Preamp
 
-The preamp is comprised of a chain of cascading gain stages, provided by two 7F7 dual triode tubes. The circuit input could be described as a single-jack implementation of a style typical of many vintage Fender amplifiers:
-- R2 (68K) provides grid stopper duties for the first gain stage; and
-- R1 (1M) provides a high impedance to the source.
+The overall design of the preamp is my best guess at cloning the classic tweed era [Fender Princeton (5F2-A)](https://en.wikipedia.org/wiki/Fender_Princeton). Instead of the usual 12AX7 for the cascading gain stages, they are instead provided by a similar-in-performance 7F7 dual triode tube. The μ of the 7F7 is only `70` (as opposed to the `100` of a 12AX7), but that will almost certainly have so little difference on the final product as to be negligible.
 
-I've also used 68K grid stopper resistors through the rest of the gain stages too, though I suspect that will need tweaking.
-
-A potentiometer is inserted between the first two gain stages (to act as a Gain control), and another potentiometer is inserted between the last gain stage and the power tube grid (to act as a Master Volume). I suspect my wiring for the Gain potentiometer may be backwards, based on my initial investigation into drawing load lines for the 7F7.
-
-A three band tone circuit - lifted from the classic [Fender Bassman (5F6-A)](https://en.wikipedia.org/wiki/Fender_Bassman) and modified only very slightly - is added after the third gain stage, with the last gain stage intended to reclaim some of the losses incurred by the tone circuit.
+In a similar vein, the output tube is a 7C5 power pentode - the loctal equivalent of the 6V6GT you would normally see in a Princeton of this era.
 
 ### Summary
 
 What I'm left with is an untested prototype circuit which should **not** be considered safe/accurate/working/usable in any capacity.
+
+## Future Goals
+
+I have calculated that the speaker impedance expected by the output transfomer is a rather non-standard value, somewhere between 2.6 and 3 Ω. There doesn't appear to be any manufacturer who currently produces a speaker with this impedance, so I'm left with two options:
+- stick with the vintage speaker I have, no matter how good or bad it sounds; or
+- replace the output transformer with something which can handle a more conventional speaker load.
+
+If I manage to actually build something usable, I'd like to keep using the vintage speaker. This is of course dependent on whether that speaker sounds any good at all, too. My suspicion (based on tests so far) is that it... probably won't be the greatest sounding. As a backup, I have purchased a Hammond 1750A audio transformer to replace the output transformer if necessary. This would allow the use of a more conventional 8 Ω speaker, and hopefully drastically improve the sound.
 
 ## References
 
