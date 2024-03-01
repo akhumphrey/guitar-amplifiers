@@ -3,17 +3,18 @@ R1,1 M,1 W,,C1,10 uF electrolytic,25 V
 R2,33 K,1 W,,C2,0.022 uF,630 V
 R3,100 K,2 W,,C3,430 pF,25 V
 R4,2.2 K,1 W,,C4,5000 pF,25 V
-R5,33 K,1 W,,C5,10 uF electrolytic,25 V
-R6,100 K,2 W,,C6,0.022 uF,630 V
-R7,2.2 K,1 W,,C7,25 uF electrolytic,50 V
-R8,10 K,1 W,,C8,5 nF,600 V
-R9,33 K,1 W,,C9,20 uF electrolytic,450 V
-R10,470 O,1 W,,C10,40 uF electrolytic,450 V
-R11,510 K,1 W,,C11,40 uF electrolytic,450 V
-R12,470 O,1 W,,,,
-R13,750 O,5 W,,,,
-R14,750 O,10 W,,,,
-R15,820 O,3 W,,,,
+R5,33 K,1 W,,C5,0.022 uF,630 V
+R6,510 K,2 W,,C6,25 uF electrolytic,50 V
+R7,100 K,2 W,,C7,5 nF,600 V
+R8,2.2 K,1 W,,C8,20 uF electrolytic,450 V
+R9,10 K,1 W,,C9,40 uF electrolytic,450 V
+R10,33 K,1 W,,C10,40 uF electrolytic,450 V
+R11,470 O,1 W,,,,
+R12,510 K,1 W,,,,
+R13,470 O,1 W,,,,
+R14,750 O,5 W,,,,
+R15,750 O,10 W,,,,
+R16,820 O,3 W,,,,
 ,,,,,,
 ,,,,,,
 Volume,1 M Log,,,V1,7F7,
