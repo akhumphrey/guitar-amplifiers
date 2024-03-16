@@ -1,6 +1,6 @@
 # 1224 Amplifier
 
-[![layout](layout-main.png)](layout-main.pdf)
+[![turret layout](layouts/turret/main.png)](layouts/turret/main.pdf)
 
 This repository contains the source files for a tube amplifier as I go through the process of designing and building the prototype.
 
@@ -14,19 +14,30 @@ I am a complete novice at this electronics thing, so this repository also serves
 
 ## Provided files
 
-![schematic](schematic.png)
+![schematic](schematic/main.png)
 
+### Common
 - [bom.csv](bom.csv) - a simple Bill of Materials for the major components (excludes wiring, transformers, and off-board hardware).
-- [layout-main.diy](layout-main.diy) - the main chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format. This layout includes the eyelet board, all components, all off-board wiring, all hardware and both transformers. The eyelet colours indicate their purpose:
+- [schematic/main.sch](schematic/main.sch) - the schematic, in [Qucs-S](https://ra3xdh.github.io/) format.
+- [schematic/main.png](schematic/main.png) - an image render of the schematic, as seen at the top of this section.
+- [schematic/tubes.lib](schematic/tubes.lib) - a Qucs-S library which contains custom schematic symbols for the 7C5, 7F7 and 7Y4 tubes.
+
+### Eyelet Board
+- [layouts/eyelet/main.diy](layouts/eyelet/main.diy) - the main chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format. This layout includes the eyelet board itself, all components, all off-board wiring, all hardware and wiring for both transformers. The eyelet colours indicate their purpose:
   - blue - standard eyelets, every component or wire which arrives at these junctions are electrically connected.
   - red - similar to blue eyelets, red eyelets just indicate the B+ voltage test points. These same points correlate with the labelled B+ test points also given in the [schematic](schematic.sch).
   - white - these eyelets act as holes for wiring to pass through to the underside of the eyelet board **without making an electrical connection to the eyelet**. The intent is to keep the eyelet board free from fly wires running over the top of components, whilst keeping the wiring as tidy as possible.
-- [layout-main.pdf](layout-main.pdf) - a vector PDF render of the main chassis layout, exported from DIY Layout Creator.
-- [layout-main.png](layout-main.png) - an image render of the main layout, as seen at the top of this README.
-- [layout-underside.diy](layout-underside.diy) - this is an isolated layout of just the eyelet board, **shown from the underside**. This layout _only_ includes the eyelet board (which has been flipped horizontally), all underside jumper wires (or wires which have passed through from above the eyelet board), and the large off-board 750&#8486; resistor (because it connects to the underside of the board). All other components, off-board wiring, transformers and hardware are excluded for clarity. The eyelet colours (and their meanings) from [layout-main.pdf](layout-main.pdf) have been retained.
-- [layout-underside.pdf](layout-underside.pdf) - a vector PDF render of the isolated underside board layout, exported from DIY Layout Creator.
-- [schematic.sch](schematic.sch) - the schematic, in [Qucs-S](https://ra3xdh.github.io/) format.
-- [schematic.png](schematic.png) - an image render of the schematic, as seen at the top of this section.
+- [layouts/eyelet/main.pdf](layouts/eyelet/main.pdf) - a vector PDF render of the main eyelet chassis layout, exported from DIY Layout Creator.
+- [layouts/eyelet/main.png](layouts/eyelet/main.png) - an image render of the main eyelet layout.
+- [layouts/eyelet/underside.diy](layouts/eyelet/underside.diy) - this is an isolated layout of just the eyelet board, **shown from the underside**. This layout _only_ includes the eyelet board (which has been flipped horizontally), all underside jumper wires (or wires which have passed through from above the eyelet board), and the large off-board 750&#8486; resistor (because it connects to the underside of the board). All other components, off-board wiring, transformers and hardware are excluded for clarity. The eyelet colours (and their meanings) from [layouts/eyelet/main.pdf](layouts/eyelet/main.pdf) have been retained.
+- [layouts/eyelet/underside.pdf](layouts/eyelet/underside.pdf) - a vector PDF render of the isolated underside eyelet board layout, exported from DIY Layout Creator.
+
+### Turret Board
+- [layouts/turret/main.diy](layouts/turret/main.diy) - the main chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format. This layout includes the turret board itself, all components, all off-board wiring, all hardware and wiring for both transformers. The turret colours indicate their purpose:
+  - blue - standard turrets, every component or wire which arrives at these junctions are electrically connected.
+  - white - these turrets act as holes for wiring to pass through to the underside of the turret board **without making an electrical connection to the turret**. The intent is to keep the turret board free from fly wires running over the top of components, whilst keeping the wiring as tidy as possible.
+- [layouts/turret/main.pdf](layouts/turret/main.pdf) - a vector PDF render of the main turret chassis layout, exported from DIY Layout Creator.
+- [layouts/turret/main.png](layouts/turret/main.png) - an image render of the main turret layout, as seen at the top of this README.
 
 ## Design goals
 
@@ -34,9 +45,9 @@ I am a complete novice at this electronics thing, so this repository also serves
 
 In my lack of experience, I've used as much as possible from existing schematics. The power supply, rectification, filtering and output stages have been lifted from the original schematic and modified as necessary. Key changes include:
 
-- replacing the three capacitor can with individual capacitors of the same value and rating - a cost-saving measure;
-- replacing the 1500 Ω, centre-tapped power resistor with two 750 Ω resistors (of appropriate power dissipation) in series - another cost-saving measure;
-- replacing the 100 Ω, 1 Watt voltage dropping resistor (R15) with an 820 Ω, 3 Watt resistor - the original design was clearly intended for a lower mains voltage than is present today, so this was necessary to bring the much higher B+ back down to reasonable levels;
+- replaced the three capacitor can with individual capacitors of the same value and rating - a cost-saving measure;
+- replaced the 1500 Ω, centre-tapped power resistor with two 750 Ω resistors (of appropriate power dissipation) in series - another cost-saving measure;
+- replaced the 100 Ω, 1 Watt voltage dropping resistor (R15) with an 820 Ω, 3 Watt resistor - the original design was clearly intended for a lower mains voltage than is present today, so this was necessary to bring the much higher B+ back down to reasonable levels;
 - added two UF4007 diodes between the high voltage secondary winding and the rectifier tube - an effort in catastrophe protection in case the rectifier fails.
 
 A further minor deviation from the original design is to separate the grounding of the filter capacitors. In the original schematic, the three capacitor can is grounded, but it isn't clear exactly where the component is actually grounded within the chassis.
@@ -59,7 +70,7 @@ I have calculated that the speaker impedance expected by the output transfomer i
 - stick with the vintage speaker I have, no matter how good or bad it sounds; or
 - replace the output transformer with something which can handle a more conventional speaker load.
 
-If I manage to actually build something usable, I'd like to keep using the vintage speaker. This is of course dependent on whether that speaker sounds any good at all, too. My suspicion (based on tests so far) is that it... probably won't be the greatest sounding. As a backup, I have purchased a Hammond 1750A audio transformer to replace the output transformer if necessary. This would allow the use of a more conventional 8 Ω speaker, and hopefully drastically improve the sound.
+If I manage to actually build something usable, I'd like to keep using the vintage speaker. This is of course dependent on whether that speaker sounds any good at all, too. My suspicion (based on tests so far) is that it has a really unique (and musical!) character, so barring any catastrophes it should be absolutely usable.
 
 ## References
 
