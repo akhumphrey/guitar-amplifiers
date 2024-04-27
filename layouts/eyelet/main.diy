@@ -698,7 +698,7 @@
       <size value="0.2" unit="in"/>
       <holeSize value="0.1" unit="in"/>
       <color hex="c3e4ed"/>
-      <point x="8.1" y="4.3"/>
+      <point x="8.3" y="5.0"/>
       <value></value>
     </diylc.connectivity.Eyelet>
     <diylc.connectivity.Eyelet>
@@ -1374,7 +1374,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB18</name>
-      <point x="6.3" y="5.2"/>
+      <point x="6.33" y="5.2"/>
       <text>B+2&lt;br&gt;250v</text>
       <font name="Open Sans Regular" size="18" style="0"/>
       <color hex="cc0033"/>
@@ -1394,7 +1394,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB21</name>
-      <point x="8.500000000000002" y="4.699999999999999"/>
+      <point x="8.575" y="4.79"/>
       <text>B+2&lt;br&gt;250v</text>
       <font name="Open Sans Regular" size="18" style="0"/>
       <color hex="cc0033"/>
@@ -1812,28 +1812,6 @@
       <value>UF4007</value>
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
-    <diylc.passive.PotentiometerPanel>
-      <name>Negative Feedback</name>
-      <alpha>127</alpha>
-      <controlPoints>
-        <point x="5.799999999999999" y="1.7"/>
-        <point x="6.1" y="1.7"/>
-        <point x="6.399999999999999" y="1.7"/>
-      </controlPoints>
-      <resistance value="50.0" unit="K"/>
-      <orientation>DEFAULT</orientation>
-      <taper>LIN</taper>
-      <bodyDiameter value="1.0" unit="in"/>
-      <spacing value="0.3" unit="in"/>
-      <lugDiameter value="0.15" unit="in"/>
-      <bodyColor hex="b6b6b6"/>
-      <borderColor hex="808080"/>
-      <nutColor hex="cbd5db"/>
-      <waferColor hex="cd8500"/>
-      <type>ThroughHole</type>
-      <showShaft>false</showShaft>
-      <view>ShaftDown</view>
-    </diylc.passive.PotentiometerPanel>
     <diylc.connectivity.HookupWire>
       <name>W25</name>
       <alpha>127</alpha>
@@ -2115,49 +2093,14 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W30</name>
-      <alpha>39</alpha>
-      <controlPoints2>
-        <point x="7.0" y="2.5"/>
-        <point x="7.6" y="2.8"/>
-        <point x="7.7" y="5.0"/>
-      </controlPoints2>
-      <color hex="ffff00"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W35</name>
-      <alpha>39</alpha>
-      <controlPoints2>
-        <point x="7.3" y="2.5"/>
-        <point x="7.7" y="2.9"/>
-        <point x="7.8" y="3.6999999999999993"/>
-      </controlPoints2>
-      <color hex="000099"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
       <name>W22</name>
       <alpha>38</alpha>
       <controlPoints2>
         <point x="8.0" y="2.3"/>
-        <point x="8.0" y="2.8"/>
-        <point x="8.1" y="3.2"/>
+        <point x="8.0" y="4.4"/>
       </controlPoints2>
       <color hex="666666"/>
-      <pointCount>THREE</pointCount>
+      <pointCount>TWO</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
@@ -2202,22 +2145,6 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Eyelet>
-      <name>Eyelet36</name>
-      <size value="0.2" unit="in"/>
-      <holeSize value="0.1" unit="in"/>
-      <color hex="ffffff"/>
-      <point x="7.0" y="2.5"/>
-      <value></value>
-    </diylc.connectivity.Eyelet>
-    <diylc.connectivity.Eyelet>
-      <name>Eyelet39</name>
-      <size value="0.2" unit="in"/>
-      <holeSize value="0.1" unit="in"/>
-      <color hex="ffffff"/>
-      <point x="7.299999999999999" y="2.5"/>
-      <value></value>
-    </diylc.connectivity.Eyelet>
-    <diylc.connectivity.Eyelet>
       <name>Eyelet15</name>
       <size value="0.2" unit="in"/>
       <holeSize value="0.1" unit="in"/>
@@ -2251,37 +2178,11 @@
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
     <diylc.connectivity.Eyelet>
-      <name>Eyelet1</name>
-      <size value="0.2" unit="in"/>
-      <holeSize value="0.1" unit="in"/>
-      <color hex="ffffff"/>
-      <point x="7.7" y="5.0"/>
-      <value></value>
-    </diylc.connectivity.Eyelet>
-    <diylc.connectivity.HookupWire>
-      <name>W29</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="7.7" y="5.0"/>
-        <point x="8.1" y="5.4"/>
-        <point x="8.2" y="5.8"/>
-        <point x="7.936499999999993" y="6.3135"/>
-      </controlPoints2>
-      <color hex="ffff00"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.Eyelet>
       <name>Eyelet21</name>
       <size value="0.2" unit="in"/>
       <holeSize value="0.1" unit="in"/>
       <color hex="c3e4ed"/>
-      <point x="7.799999999999999" y="3.6999999999999993"/>
+      <point x="7.699999999999999" y="4.999999999999999"/>
       <value></value>
     </diylc.connectivity.Eyelet>
     <diylc.passive.Resistor>
@@ -2290,9 +2191,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.5" unit="mm"/>
       <points>
-        <point x="7.8" y="3.6999999999999993"/>
-        <point x="8.1" y="4.3"/>
-        <point x="7.95" y="4.0"/>
+        <point x="7.7" y="4.999999999999999"/>
+        <point x="8.3" y="5.0"/>
+        <point x="8.0" y="5.0"/>
       </points>
       <bodyColor hex="996600"/>
       <borderColor hex="5b90b1"/>
@@ -2314,7 +2215,7 @@
       <size value="0.2" unit="in"/>
       <holeSize value="0.1" unit="in"/>
       <color hex="c3e4ed"/>
-      <point x="8.1" y="3.2"/>
+      <point x="8.0" y="4.4"/>
       <value></value>
     </diylc.connectivity.Eyelet>
     <diylc.connectivity.Eyelet>
@@ -2569,8 +2470,8 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="8.399999999999999" y="3.9"/>
-        <point x="8.185" y="4.695"/>
-        <point x="8.399999999999999" y="5.1"/>
+        <point x="8.2" y="4.2"/>
+        <point x="8.5" y="5.0"/>
         <point x="8.685" y="6.295"/>
       </controlPoints2>
       <color hex="000099"/>
@@ -2651,40 +2552,6 @@
         <point x="8.7" y="2.6"/>
       </controlPoints2>
       <color hex="ffff00"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W31</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="5.8" y="1.7"/>
-        <point x="6.6" y="2.2"/>
-        <point x="7.0" y="2.5"/>
-      </controlPoints2>
-      <color hex="ffff00"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W32</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="6.099999999999999" y="1.7"/>
-        <point x="6.9" y="2.2"/>
-        <point x="7.3" y="2.5"/>
-      </controlPoints2>
-      <color hex="000099"/>
       <pointCount>THREE</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
@@ -3800,9 +3667,9 @@
       <length value="11.0" unit="mm"/>
       <width value="4.0" unit="mm"/>
       <points>
-        <point x="8.1" y="3.2"/>
-        <point x="8.1" y="4.3"/>
-        <point x="8.1" y="3.7499999999999996"/>
+        <point x="8.0" y="4.4"/>
+        <point x="8.3" y="5.0"/>
+        <point x="8.15" y="4.699999999999999"/>
       </points>
       <bodyColor hex="3300cc"/>
       <borderColor hex="5b90b1"/>
@@ -3822,7 +3689,7 @@
       <name>W17</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="8.1" y="4.3"/>
+        <point x="8.3" y="5.0"/>
         <point x="8.3" y="5.3"/>
         <point x="8.4" y="5.9"/>
         <point x="8.685" y="6.555"/>
@@ -3901,80 +3768,97 @@
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W29</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="7.7" y="5.0"/>
+        <point x="8.0" y="5.9"/>
+        <point x="7.936499999999993" y="6.3135"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[10]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[8]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[7]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[12]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[11]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[9]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[28]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[13]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[3]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[11]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[15]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[5]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[22]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[17]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[4]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[7]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[21]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[18]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[20]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[6]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[9]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[14]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[16]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[10]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[12]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[2]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[8]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[19]"/>
+    </set>
+    <set>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[3]"/>
     </set>
     <set>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[27]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[6]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[5]"/>
       <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[4]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[6]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[5]"/>
     </set>
     <set>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[15]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[14]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[16]"/>
+      <diylc.electromechanical.PilotLampHolder reference="../../../components/diylc.electromechanical.PilotLampHolder"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+    </set>
+    <set>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[16]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[16]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[14]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[15]"/>
       <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[13]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[13]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[4]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-    </set>
-    <set>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[5]"/>
       <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[7]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[6]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
     </set>
     <set>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[10]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[16]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[13]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[5]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[4]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[14]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[19]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[15]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[8]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[7]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[20]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[2]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[21]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[22]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[9]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[18]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[17]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[3]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[12]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[11]"/>
-    </set>
-    <set>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.electromechanical.PilotLampHolder reference="../../../components/diylc.electromechanical.PilotLampHolder"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[28]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[9]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[8]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[12]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[7]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[10]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[11]"/>
     </set>
   </groups>
   <lockedLayers>
