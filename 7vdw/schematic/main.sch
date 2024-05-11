@@ -1,6 +1,6 @@
 <Qucs Schematic 24.2.1>
 <Properties>
-  <View=439,129,3027,1827,1.14516,523,806>
+  <View=439,129,1952,1391,1.1343,87,298>
   <Grid=10,10,1>
   <DataSet=main.dat>
   <DataDisplay=main.dpl>
@@ -87,11 +87,11 @@
   <R R8 1 1060 470 11 10 0 1 "3.3 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R5 1 930 440 -42 -26 0 1 "1 MOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R23 1 1130 1030 -47 0 0 1 "30 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
-  <Lib V1a 1 630 760 -52 -72 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
-  <Lib V2a 1 980 760 -48 -75 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
-  <Lib V3a 1 1220 700 -44 -73 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "12AY7" 0>
-  <Lib V3b 1 1030 370 -44 -77 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "12AY7" 0>
-  <Lib V1b 1 1580 620 -44 -81 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
+  <Lib V1a 1 630 760 -46 -72 0 0 "Tubes" 0 "12AX7" 0>
+  <Lib V2a 1 1220 700 -40 -73 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
+  <Lib V3a 1 1030 370 -39 -72 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
+  <Lib V1b 1 980 760 -46 -73 0 0 "Tubes" 0 "12AX7" 0>
+  <Lib V3b 1 1580 620 -44 -81 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
   <Lib V2b 1 1580 780 -38 64 1 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
 </Components>
 <Wires>
