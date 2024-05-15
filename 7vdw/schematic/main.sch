@@ -1,6 +1,6 @@
 <Qucs Schematic 24.2.1>
 <Properties>
-  <View=439,129,1952,1463,1.3317,361,879>
+  <View=439,129,2279,1535,1.23786,702,843>
   <Grid=10,10,1>
   <DataSet=main.dat>
   <DataDisplay=main.dpl>
@@ -10,7 +10,7 @@
   <showFrame=5>
   <FrameText0=7vdw Amplifier>
   <FrameText1=Drawn By: @akhumphrey>
-  <FrameText2=Date: 2024-04>
+  <FrameText2=Date: 2024-05>
   <FrameText3=Revision: 1>
 </Properties>
 <Symbol>
@@ -36,7 +36,6 @@
   <potentiometer Speed 1 1320 210 -32 19 0 0 "3 M" 0 "120" 0 "0" 0 "1" 0 "240.0" 0 "0.2" 0 "0.2" 0 "1" 0 "100" 0 "26.85" 0 "26.85" 0>
   <GND * 1 1280 130 0 0 0 0>
   <Switch Footswitch 1 830 210 -43 -43 0 0 "off" 0 "1 ms" 0 "1e-9" 0 "1e12" 0 "26.85" 0 "1e-6" 0 "spline" 0>
-  <C C9 1 1180 250 -45 12 1 1 "0.02 uF" 0 "630" 0 "neutral" 0>
   <C C8 1 1140 210 -44 -28 1 0 "0.01 uF" 0 "630" 0 "neutral" 0>
   <R R11 1 1180 330 -43 -32 0 1 "220 k" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R12 1 1220 290 -21 16 0 2 "220 k" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
@@ -93,6 +92,7 @@
   <Lib V1b 1 980 760 -46 -73 0 0 "Tubes" 0 "12AX7" 0>
   <Lib V3b 1 1580 620 -44 -81 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
   <Lib V2b 1 1580 780 -38 64 1 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
+  <C C9 1 1180 250 -45 12 1 1 "0.022 uF" 0 "630" 0 "neutral" 0>
 </Components>
 <Wires>
   <630 700 650 700 "" 0 0 0 "">
