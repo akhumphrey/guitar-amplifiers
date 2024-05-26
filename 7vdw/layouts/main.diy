@@ -8,27 +8,93 @@
   <title>1224</title>
   <author>@akhumphrey</author>
   <description></description>
-  <width value="313.0" unit="mm"/>
+  <width value="400.0" unit="mm"/>
   <height value="165.0" unit="mm"/>
   <gridSpacing value="0.1" unit="in"/>
   <dotSpacing>1</dotSpacing>
   <components>
+    <diylc.connectivity.HookupWire>
+      <name>W24</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="13.3" y="3.7"/>
+        <point x="13.3" y="4.3"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W18</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="13.7" y="3.1"/>
+        <point x="13.1" y="3.7"/>
+        <point x="12.9" y="4.3"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W8</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="14.1" y="3.1"/>
+        <point x="14.3" y="3.8"/>
+        <point x="14.1" y="4.3"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W20</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="14.9" y="3.7"/>
+        <point x="14.9" y="4.3"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
     <diylc.boards.BlankBoard>
       <name>CircuitBoard</name>
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="0.205" y="2.6"/>
-        <point x="11.819173228346457" y="4.6"/>
+        <point x="3.86" y="2.6"/>
+        <point x="15.513543307086616" y="4.6"/>
       </controlPoints>
-      <firstPoint x="0.205" y="2.6"/>
-      <secondPoint x="11.819173228346457" y="4.6"/>
+      <firstPoint x="3.86" y="2.6"/>
+      <secondPoint x="15.513543307086616" y="4.6"/>
       <boardColor hex="eeeeee"/>
       <borderColor hex="666666"/>
       <coordinateColor hex="b6b6b6"/>
       <drawCoordinates>true</drawCoordinates>
       <coordinateOrigin>Top_Left</coordinateOrigin>
-      <length value="295.0" unit="mm"/>
+      <length value="296.0" unit="mm"/>
       <width value="50.8" unit="mm"/>
       <mode>Explicit</mode>
       <type>SQUARE</type>
@@ -37,9 +103,9 @@
       <name>Ground</name>
       <alpha>127</alpha>
       <points>
-        <point x="11.6" y="2.8"/>
-        <point x="0.4050000000000006" y="2.8"/>
-        <point x="6.002499999999999" y="2.8"/>
+        <point x="15.3" y="2.8"/>
+        <point x="4.105" y="2.8"/>
+        <point x="9.702499999999999" y="2.8"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -57,9 +123,9 @@
       <name>Trace16</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.805" y="4.499999999999999"/>
-        <point x="6.805" y="4.300000000000001"/>
-        <point x="6.805" y="4.4"/>
+        <point x="10.505" y="4.499999999999999"/>
+        <point x="10.505" y="4.300000000000001"/>
+        <point x="10.505" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -77,9 +143,9 @@
       <name>Trace17</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.405" y="4.499999999999999"/>
-        <point x="6.405" y="4.300000000000001"/>
-        <point x="6.405" y="4.4"/>
+        <point x="10.105" y="4.499999999999999"/>
+        <point x="10.105" y="4.300000000000001"/>
+        <point x="10.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -97,9 +163,9 @@
       <name>Trace18</name>
       <alpha>127</alpha>
       <points>
-        <point x="6.005" y="4.499999999999999"/>
-        <point x="6.005" y="4.300000000000001"/>
-        <point x="6.005" y="4.4"/>
+        <point x="9.705" y="4.499999999999999"/>
+        <point x="9.705" y="4.300000000000001"/>
+        <point x="9.705" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -117,9 +183,9 @@
       <name>Trace19</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.605" y="4.499999999999999"/>
-        <point x="5.605" y="4.300000000000001"/>
-        <point x="5.605" y="4.4"/>
+        <point x="9.305" y="4.499999999999999"/>
+        <point x="9.305" y="4.300000000000001"/>
+        <point x="9.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -137,9 +203,9 @@
       <name>Trace20</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.204999999999999" y="4.499999999999999"/>
-        <point x="5.204999999999999" y="4.300000000000001"/>
-        <point x="5.204999999999999" y="4.4"/>
+        <point x="8.905" y="4.499999999999999"/>
+        <point x="8.905" y="4.300000000000001"/>
+        <point x="8.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -157,9 +223,9 @@
       <name>Trace21</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.8050000000000015" y="4.499999999999999"/>
-        <point x="4.8050000000000015" y="4.300000000000001"/>
-        <point x="4.8050000000000015" y="4.4"/>
+        <point x="8.505000000000003" y="4.499999999999999"/>
+        <point x="8.505000000000003" y="4.300000000000001"/>
+        <point x="8.505000000000003" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -177,9 +243,9 @@
       <name>Trace22</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.405" y="4.499999999999999"/>
-        <point x="4.405" y="4.300000000000001"/>
-        <point x="4.405" y="4.4"/>
+        <point x="8.105" y="4.499999999999999"/>
+        <point x="8.105" y="4.300000000000001"/>
+        <point x="8.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -197,9 +263,9 @@
       <name>Trace23</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.005" y="4.499999999999999"/>
-        <point x="4.005" y="4.300000000000001"/>
-        <point x="4.005" y="4.4"/>
+        <point x="7.705" y="4.499999999999999"/>
+        <point x="7.705" y="4.300000000000001"/>
+        <point x="7.705" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -217,9 +283,9 @@
       <name>Trace24</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.605" y="4.499999999999999"/>
-        <point x="3.605" y="4.300000000000001"/>
-        <point x="3.605" y="4.4"/>
+        <point x="7.305" y="4.499999999999999"/>
+        <point x="7.305" y="4.300000000000001"/>
+        <point x="7.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -237,9 +303,9 @@
       <name>Trace25</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.205" y="4.499999999999999"/>
-        <point x="3.205" y="4.300000000000001"/>
-        <point x="3.205" y="4.4"/>
+        <point x="6.905" y="4.499999999999999"/>
+        <point x="6.905" y="4.300000000000001"/>
+        <point x="6.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -257,9 +323,9 @@
       <name>Trace26</name>
       <alpha>127</alpha>
       <points>
-        <point x="2.805" y="4.499999999999999"/>
-        <point x="2.805" y="4.300000000000001"/>
-        <point x="2.805" y="4.4"/>
+        <point x="6.505" y="4.499999999999999"/>
+        <point x="6.505" y="4.300000000000001"/>
+        <point x="6.505" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -277,9 +343,9 @@
       <name>Trace27</name>
       <alpha>127</alpha>
       <points>
-        <point x="2.405" y="4.499999999999999"/>
-        <point x="2.405" y="4.300000000000001"/>
-        <point x="2.405" y="4.4"/>
+        <point x="6.105" y="4.499999999999999"/>
+        <point x="6.105" y="4.300000000000001"/>
+        <point x="6.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -297,9 +363,9 @@
       <name>Trace28</name>
       <alpha>127</alpha>
       <points>
-        <point x="2.005" y="4.499999999999999"/>
-        <point x="2.005" y="4.300000000000001"/>
-        <point x="2.005" y="4.4"/>
+        <point x="5.705" y="4.499999999999999"/>
+        <point x="5.705" y="4.300000000000001"/>
+        <point x="5.705" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -317,9 +383,9 @@
       <name>Trace29</name>
       <alpha>127</alpha>
       <points>
-        <point x="1.605" y="4.499999999999999"/>
-        <point x="1.605" y="4.300000000000001"/>
-        <point x="1.605" y="4.4"/>
+        <point x="5.305" y="4.499999999999999"/>
+        <point x="5.305" y="4.300000000000001"/>
+        <point x="5.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -337,9 +403,9 @@
       <name>Trace30</name>
       <alpha>127</alpha>
       <points>
-        <point x="1.205" y="4.499999999999999"/>
-        <point x="1.205" y="4.300000000000001"/>
-        <point x="1.205" y="4.4"/>
+        <point x="4.905" y="4.499999999999999"/>
+        <point x="4.905" y="4.300000000000001"/>
+        <point x="4.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -357,9 +423,9 @@
       <name>Trace3</name>
       <alpha>127</alpha>
       <points>
-        <point x="0.805" y="4.499999999999999"/>
-        <point x="0.805" y="4.300000000000001"/>
-        <point x="0.805" y="4.4"/>
+        <point x="4.505" y="4.499999999999999"/>
+        <point x="4.505" y="4.300000000000001"/>
+        <point x="4.505" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -377,9 +443,9 @@
       <name>Trace5</name>
       <alpha>127</alpha>
       <points>
-        <point x="0.4050000000000006" y="4.499999999999999"/>
-        <point x="0.4050000000000006" y="4.300000000000001"/>
-        <point x="0.4050000000000006" y="4.4"/>
+        <point x="4.105" y="4.499999999999999"/>
+        <point x="4.105" y="4.300000000000001"/>
+        <point x="4.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -397,9 +463,9 @@
       <name>Trace1</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.205" y="4.5"/>
-        <point x="7.205" y="4.300000000000001"/>
-        <point x="7.205" y="4.4"/>
+        <point x="10.905" y="4.5"/>
+        <point x="10.905" y="4.300000000000001"/>
+        <point x="10.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -417,9 +483,9 @@
       <name>Trace2</name>
       <alpha>127</alpha>
       <points>
-        <point x="7.605" y="4.499999999999999"/>
-        <point x="7.605" y="4.300000000000001"/>
-        <point x="7.605" y="4.4"/>
+        <point x="11.305" y="4.499999999999999"/>
+        <point x="11.305" y="4.300000000000001"/>
+        <point x="11.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -437,9 +503,9 @@
       <name>Trace4</name>
       <alpha>127</alpha>
       <points>
-        <point x="8.005" y="4.499999999999999"/>
-        <point x="8.005" y="4.300000000000001"/>
-        <point x="8.005" y="4.4"/>
+        <point x="11.705" y="4.499999999999999"/>
+        <point x="11.705" y="4.300000000000001"/>
+        <point x="11.705" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -457,9 +523,9 @@
       <name>Trace6</name>
       <alpha>127</alpha>
       <points>
-        <point x="8.405" y="4.499999999999999"/>
-        <point x="8.405" y="4.300000000000001"/>
-        <point x="8.405" y="4.4"/>
+        <point x="12.105" y="4.499999999999999"/>
+        <point x="12.105" y="4.300000000000001"/>
+        <point x="12.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -477,9 +543,9 @@
       <name>Trace7</name>
       <alpha>127</alpha>
       <points>
-        <point x="8.805" y="4.499999999999999"/>
-        <point x="8.805" y="4.300000000000001"/>
-        <point x="8.805" y="4.4"/>
+        <point x="12.505" y="4.499999999999999"/>
+        <point x="12.505" y="4.300000000000001"/>
+        <point x="12.505" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -497,9 +563,9 @@
       <name>Trace8</name>
       <alpha>127</alpha>
       <points>
-        <point x="9.205" y="4.499999999999999"/>
-        <point x="9.205" y="4.300000000000001"/>
-        <point x="9.205" y="4.4"/>
+        <point x="12.905" y="4.499999999999999"/>
+        <point x="12.905" y="4.300000000000001"/>
+        <point x="12.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -517,9 +583,9 @@
       <name>Trace9</name>
       <alpha>127</alpha>
       <points>
-        <point x="9.605" y="4.499999999999999"/>
-        <point x="9.605" y="4.300000000000001"/>
-        <point x="9.605" y="4.4"/>
+        <point x="13.305" y="4.499999999999999"/>
+        <point x="13.305" y="4.300000000000001"/>
+        <point x="13.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -537,9 +603,9 @@
       <name>Trace10</name>
       <alpha>127</alpha>
       <points>
-        <point x="10.005" y="4.499999999999999"/>
-        <point x="10.005" y="4.300000000000001"/>
-        <point x="10.005" y="4.4"/>
+        <point x="13.705" y="4.499999999999999"/>
+        <point x="13.705" y="4.300000000000001"/>
+        <point x="13.705" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -557,9 +623,9 @@
       <name>Trace11</name>
       <alpha>127</alpha>
       <points>
-        <point x="10.405" y="4.499999999999999"/>
-        <point x="10.405" y="4.300000000000001"/>
-        <point x="10.405" y="4.4"/>
+        <point x="14.105" y="4.499999999999999"/>
+        <point x="14.105" y="4.300000000000001"/>
+        <point x="14.105" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -577,9 +643,9 @@
       <name>Trace12</name>
       <alpha>127</alpha>
       <points>
-        <point x="10.805" y="4.499999999999999"/>
-        <point x="10.805" y="4.300000000000001"/>
-        <point x="10.805" y="4.4"/>
+        <point x="14.505" y="4.499999999999999"/>
+        <point x="14.505" y="4.300000000000001"/>
+        <point x="14.505" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -597,9 +663,9 @@
       <name>Trace13</name>
       <alpha>127</alpha>
       <points>
-        <point x="11.205" y="4.499999999999999"/>
-        <point x="11.205" y="4.300000000000001"/>
-        <point x="11.205" y="4.4"/>
+        <point x="14.905" y="4.499999999999999"/>
+        <point x="14.905" y="4.300000000000001"/>
+        <point x="14.905" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -617,9 +683,9 @@
       <name>Trace14</name>
       <alpha>127</alpha>
       <points>
-        <point x="11.605" y="4.499999999999999"/>
-        <point x="11.605" y="4.300000000000001"/>
-        <point x="11.605" y="4.4"/>
+        <point x="15.305" y="4.499999999999999"/>
+        <point x="15.305" y="4.300000000000001"/>
+        <point x="15.305" y="4.4"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -637,7 +703,7 @@
       <name>Pad14</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.805" y="3.1"/>
+      <point x="10.505" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -646,7 +712,7 @@
       <name>Pad15</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.405" y="3.1"/>
+      <point x="10.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -655,7 +721,7 @@
       <name>Pad16</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.005" y="3.1"/>
+      <point x="9.705" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -664,7 +730,7 @@
       <name>Pad17</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.605" y="3.1"/>
+      <point x="9.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -673,7 +739,7 @@
       <name>Pad18</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.204999999999999" y="3.1"/>
+      <point x="8.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -682,7 +748,7 @@
       <name>Pad19</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.8050000000000015" y="3.1"/>
+      <point x="8.505000000000003" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -691,7 +757,7 @@
       <name>Pad20</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.405" y="3.1"/>
+      <point x="8.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -700,7 +766,7 @@
       <name>Pad21</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.005" y="3.1"/>
+      <point x="7.705" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -709,7 +775,7 @@
       <name>Pad22</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.605" y="3.1"/>
+      <point x="7.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -718,7 +784,7 @@
       <name>Pad23</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.205" y="3.1"/>
+      <point x="6.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -727,7 +793,7 @@
       <name>Pad24</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.805" y="3.1"/>
+      <point x="6.505" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -736,7 +802,7 @@
       <name>Pad25</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.405" y="3.1"/>
+      <point x="6.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -745,7 +811,7 @@
       <name>Pad26</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.005" y="3.1"/>
+      <point x="5.705" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -754,7 +820,7 @@
       <name>Pad27</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.605" y="3.1"/>
+      <point x="5.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -763,7 +829,7 @@
       <name>Pad28</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.205" y="3.1"/>
+      <point x="4.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -772,7 +838,7 @@
       <name>Pad29</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.805" y="3.1"/>
+      <point x="4.505" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -781,7 +847,7 @@
       <name>Pad30</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.4050000000000006" y="3.1"/>
+      <point x="4.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -790,7 +856,7 @@
       <name>Pad98</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.005" y="3.9"/>
+      <point x="10.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -799,7 +865,7 @@
       <name>Pad99</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.005" y="3.5"/>
+      <point x="10.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -808,7 +874,7 @@
       <name>Pad100</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.805" y="3.7"/>
+      <point x="10.505" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -817,7 +883,7 @@
       <name>Pad101</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.605" y="3.9"/>
+      <point x="10.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -826,7 +892,7 @@
       <name>Pad102</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.605" y="3.5"/>
+      <point x="10.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -835,7 +901,7 @@
       <name>Pad103</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.405" y="3.7"/>
+      <point x="10.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -844,7 +910,7 @@
       <name>Pad104</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.205" y="3.9"/>
+      <point x="9.905" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -853,7 +919,7 @@
       <name>Pad105</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.205" y="3.5"/>
+      <point x="9.905" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -862,7 +928,7 @@
       <name>Pad106</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.005" y="3.7"/>
+      <point x="9.705" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -871,7 +937,7 @@
       <name>Pad107</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.805" y="3.9"/>
+      <point x="9.505" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -880,7 +946,7 @@
       <name>Pad108</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.805" y="3.5"/>
+      <point x="9.505" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -889,7 +955,7 @@
       <name>Pad109</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.605" y="3.7"/>
+      <point x="9.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -898,7 +964,7 @@
       <name>Pad110</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.405" y="3.9"/>
+      <point x="9.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -907,7 +973,7 @@
       <name>Pad111</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.405" y="3.5"/>
+      <point x="9.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -916,7 +982,7 @@
       <name>Pad112</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.204999999999999" y="3.7"/>
+      <point x="8.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -925,7 +991,7 @@
       <name>Pad113</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.005" y="3.9"/>
+      <point x="8.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -934,7 +1000,7 @@
       <name>Pad114</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.005" y="3.5"/>
+      <point x="8.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -943,7 +1009,7 @@
       <name>Pad115</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.8050000000000015" y="3.7"/>
+      <point x="8.505000000000003" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -952,7 +1018,7 @@
       <name>Pad116</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.605" y="3.9"/>
+      <point x="8.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -961,7 +1027,7 @@
       <name>Pad117</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.605" y="3.5"/>
+      <point x="8.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -970,7 +1036,7 @@
       <name>Pad118</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.405" y="3.7"/>
+      <point x="8.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -979,7 +1045,7 @@
       <name>Pad119</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.204999999999999" y="3.9"/>
+      <point x="7.905" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -988,7 +1054,7 @@
       <name>Pad120</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.204999999999999" y="3.5"/>
+      <point x="7.905" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -997,7 +1063,7 @@
       <name>Pad121</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.005" y="3.7"/>
+      <point x="7.705" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1006,7 +1072,7 @@
       <name>Pad122</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.805000000000001" y="3.9"/>
+      <point x="7.505000000000001" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1015,7 +1081,7 @@
       <name>Pad123</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.805000000000001" y="3.5"/>
+      <point x="7.505000000000001" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1024,7 +1090,7 @@
       <name>Pad124</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.605" y="3.7"/>
+      <point x="7.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1033,7 +1099,7 @@
       <name>Pad125</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.405" y="3.9"/>
+      <point x="7.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1042,7 +1108,7 @@
       <name>Pad126</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.405" y="3.5"/>
+      <point x="7.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1051,7 +1117,7 @@
       <name>Pad127</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.205" y="3.7"/>
+      <point x="6.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1060,7 +1126,7 @@
       <name>Pad128</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.005" y="3.9"/>
+      <point x="6.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1069,7 +1135,7 @@
       <name>Pad129</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.005" y="3.5"/>
+      <point x="6.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1078,7 +1144,7 @@
       <name>Pad130</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.805" y="3.7"/>
+      <point x="6.505" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1087,7 +1153,7 @@
       <name>Pad131</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.605" y="3.9"/>
+      <point x="6.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1096,7 +1162,7 @@
       <name>Pad132</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.605" y="3.5"/>
+      <point x="6.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1105,7 +1171,7 @@
       <name>Pad133</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.405" y="3.7"/>
+      <point x="6.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1114,7 +1180,7 @@
       <name>Pad134</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.205" y="3.9"/>
+      <point x="5.905" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1123,7 +1189,7 @@
       <name>Pad135</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.205" y="3.5"/>
+      <point x="5.905" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1132,7 +1198,7 @@
       <name>Pad136</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.005" y="3.7"/>
+      <point x="5.705" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1141,7 +1207,7 @@
       <name>Pad137</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.805" y="3.9"/>
+      <point x="5.505" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1150,7 +1216,7 @@
       <name>Pad138</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.805" y="3.5"/>
+      <point x="5.505" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1159,7 +1225,7 @@
       <name>Pad139</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.605" y="3.7"/>
+      <point x="5.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1168,7 +1234,7 @@
       <name>Pad140</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.405" y="3.9"/>
+      <point x="5.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1177,7 +1243,7 @@
       <name>Pad141</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.405" y="3.5"/>
+      <point x="5.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1186,7 +1252,7 @@
       <name>Pad142</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.205" y="3.7"/>
+      <point x="4.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1195,7 +1261,7 @@
       <name>Pad143</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.005" y="3.9"/>
+      <point x="4.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1204,7 +1270,7 @@
       <name>Pad144</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.005" y="3.5"/>
+      <point x="4.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1213,7 +1279,7 @@
       <name>Pad145</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.805" y="3.7"/>
+      <point x="4.505" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1222,7 +1288,7 @@
       <name>Pad146</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.605" y="3.9"/>
+      <point x="4.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1231,7 +1297,7 @@
       <name>Pad147</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.605" y="3.5"/>
+      <point x="4.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1240,7 +1306,7 @@
       <name>Pad148</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.4050000000000006" y="3.7"/>
+      <point x="4.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1249,7 +1315,7 @@
       <name>Pad46</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.805" y="4.300000000000001"/>
+      <point x="10.505" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1258,7 +1324,7 @@
       <name>Pad47</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.405" y="4.300000000000001"/>
+      <point x="10.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1267,7 +1333,7 @@
       <name>Pad48</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="6.005" y="4.300000000000001"/>
+      <point x="9.705" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1276,7 +1342,7 @@
       <name>Pad49</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.605" y="4.300000000000001"/>
+      <point x="9.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1285,7 +1351,7 @@
       <name>Pad50</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="5.204999999999999" y="4.300000000000001"/>
+      <point x="8.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1294,7 +1360,7 @@
       <name>Pad51</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.8050000000000015" y="4.300000000000001"/>
+      <point x="8.505000000000003" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1303,7 +1369,7 @@
       <name>Pad52</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.405" y="4.300000000000001"/>
+      <point x="8.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1312,7 +1378,7 @@
       <name>Pad53</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="4.005" y="4.300000000000001"/>
+      <point x="7.705" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1321,7 +1387,7 @@
       <name>Pad54</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.605" y="4.300000000000001"/>
+      <point x="7.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1330,7 +1396,7 @@
       <name>Pad55</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="3.205" y="4.300000000000001"/>
+      <point x="6.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1339,7 +1405,7 @@
       <name>Pad56</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.805" y="4.300000000000001"/>
+      <point x="6.505" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1348,7 +1414,7 @@
       <name>Pad57</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.405" y="4.300000000000001"/>
+      <point x="6.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1357,7 +1423,7 @@
       <name>Pad58</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="2.005" y="4.300000000000001"/>
+      <point x="5.705" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1366,7 +1432,7 @@
       <name>Pad59</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.605" y="4.300000000000001"/>
+      <point x="5.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1375,7 +1441,7 @@
       <name>Pad60</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="1.205" y="4.300000000000001"/>
+      <point x="4.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1384,7 +1450,7 @@
       <name>Pad33</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.805" y="4.300000000000001"/>
+      <point x="4.505" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1393,7 +1459,7 @@
       <name>Pad35</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="0.4050000000000006" y="4.300000000000001"/>
+      <point x="4.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1402,7 +1468,7 @@
       <name>Pad1</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.205" y="3.1"/>
+      <point x="10.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1411,7 +1477,7 @@
       <name>Pad2</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.405" y="3.9"/>
+      <point x="11.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1420,7 +1486,7 @@
       <name>Pad3</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.405" y="3.5"/>
+      <point x="11.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1429,7 +1495,7 @@
       <name>Pad4</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.205" y="3.7"/>
+      <point x="10.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1438,7 +1504,7 @@
       <name>Pad5</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.205" y="4.300000000000001"/>
+      <point x="10.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1447,7 +1513,7 @@
       <name>Pad6</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.605" y="3.1"/>
+      <point x="11.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1456,7 +1522,7 @@
       <name>Pad7</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.805" y="3.9"/>
+      <point x="11.505" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1465,7 +1531,7 @@
       <name>Pad8</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.805" y="3.5"/>
+      <point x="11.505" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1474,7 +1540,7 @@
       <name>Pad9</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.605" y="3.7"/>
+      <point x="11.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1483,7 +1549,7 @@
       <name>Pad10</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="7.605" y="4.300000000000001"/>
+      <point x="11.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1492,7 +1558,7 @@
       <name>Pad11</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.005" y="3.1"/>
+      <point x="11.705" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1501,7 +1567,7 @@
       <name>Pad12</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.205" y="3.9"/>
+      <point x="11.905" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1510,7 +1576,7 @@
       <name>Pad13</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.205" y="3.5"/>
+      <point x="11.905" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1519,7 +1585,7 @@
       <name>Pad31</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.005" y="3.7"/>
+      <point x="11.705" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1528,7 +1594,7 @@
       <name>Pad32</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.005" y="4.300000000000001"/>
+      <point x="11.705" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1537,7 +1603,7 @@
       <name>Pad34</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.405" y="3.1"/>
+      <point x="12.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1546,7 +1612,7 @@
       <name>Pad36</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.605" y="3.9"/>
+      <point x="12.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1555,7 +1621,7 @@
       <name>Pad37</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.605" y="3.5"/>
+      <point x="12.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1564,7 +1630,7 @@
       <name>Pad38</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.405" y="3.7"/>
+      <point x="12.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1573,7 +1639,7 @@
       <name>Pad39</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.405" y="4.300000000000001"/>
+      <point x="12.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1582,7 +1648,7 @@
       <name>Pad40</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.805" y="3.1"/>
+      <point x="12.505" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1591,7 +1657,7 @@
       <name>Pad41</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.005" y="3.9"/>
+      <point x="12.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1600,7 +1666,7 @@
       <name>Pad42</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.005" y="3.5"/>
+      <point x="12.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1609,7 +1675,7 @@
       <name>Pad43</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.805" y="3.7"/>
+      <point x="12.505" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1618,7 +1684,7 @@
       <name>Pad44</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="8.805" y="4.300000000000001"/>
+      <point x="12.505" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1627,7 +1693,7 @@
       <name>Pad45</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.205" y="3.1"/>
+      <point x="12.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1636,7 +1702,7 @@
       <name>Pad61</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.405" y="3.9"/>
+      <point x="13.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1645,7 +1711,7 @@
       <name>Pad62</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.405" y="3.5"/>
+      <point x="13.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1654,7 +1720,7 @@
       <name>Pad63</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.205" y="3.7"/>
+      <point x="12.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1663,7 +1729,7 @@
       <name>Pad64</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.205" y="4.300000000000001"/>
+      <point x="12.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1672,7 +1738,7 @@
       <name>Pad65</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.605" y="3.1"/>
+      <point x="13.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1681,7 +1747,7 @@
       <name>Pad66</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.805" y="3.9"/>
+      <point x="13.505" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1690,7 +1756,7 @@
       <name>Pad67</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.805" y="3.5"/>
+      <point x="13.505" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1699,7 +1765,7 @@
       <name>Pad68</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.605" y="3.7"/>
+      <point x="13.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1708,7 +1774,7 @@
       <name>Pad69</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="9.605" y="4.300000000000001"/>
+      <point x="13.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1717,7 +1783,7 @@
       <name>Pad70</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.005" y="3.1"/>
+      <point x="13.705" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1726,7 +1792,7 @@
       <name>Pad71</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.205" y="3.9"/>
+      <point x="13.905" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1735,7 +1801,7 @@
       <name>Pad72</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.205" y="3.5"/>
+      <point x="13.905" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1744,7 +1810,7 @@
       <name>Pad73</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.005" y="3.7"/>
+      <point x="13.705" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1753,7 +1819,7 @@
       <name>Pad74</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.005" y="4.300000000000001"/>
+      <point x="13.705" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1762,7 +1828,7 @@
       <name>Pad75</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.405" y="3.1"/>
+      <point x="14.105" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1771,7 +1837,7 @@
       <name>Pad76</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.605" y="3.9"/>
+      <point x="14.305" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1780,7 +1846,7 @@
       <name>Pad77</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.605" y="3.5"/>
+      <point x="14.305" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1789,7 +1855,7 @@
       <name>Pad78</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.405" y="3.7"/>
+      <point x="14.105" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1798,7 +1864,7 @@
       <name>Pad79</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.405" y="4.300000000000001"/>
+      <point x="14.105" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1807,7 +1873,7 @@
       <name>Pad80</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.805" y="3.1"/>
+      <point x="14.505" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1816,7 +1882,7 @@
       <name>Pad81</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.005" y="3.9"/>
+      <point x="14.705" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1825,7 +1891,7 @@
       <name>Pad82</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.005" y="3.5"/>
+      <point x="14.705" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1834,7 +1900,7 @@
       <name>Pad83</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.805" y="3.7"/>
+      <point x="14.505" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1843,7 +1909,7 @@
       <name>Pad84</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="10.805" y="4.300000000000001"/>
+      <point x="14.505" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1852,7 +1918,7 @@
       <name>Pad85</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.205" y="3.1"/>
+      <point x="14.905" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1861,7 +1927,7 @@
       <name>Pad86</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.405" y="3.9"/>
+      <point x="15.105" y="3.9"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1870,7 +1936,7 @@
       <name>Pad87</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.405" y="3.5"/>
+      <point x="15.105" y="3.5"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1879,7 +1945,7 @@
       <name>Pad88</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.205" y="3.7"/>
+      <point x="14.905" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1888,7 +1954,7 @@
       <name>Pad89</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.205" y="4.300000000000001"/>
+      <point x="14.905" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1897,7 +1963,7 @@
       <name>Pad90</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.605" y="3.1"/>
+      <point x="15.305" y="3.1"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1906,7 +1972,7 @@
       <name>Pad93</name>
       <size value="4.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.605" y="3.7"/>
+      <point x="15.305" y="3.7"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
@@ -1915,134 +1981,1196 @@
       <name>Pad94</name>
       <size value="5.0" unit="mm"/>
       <color hex="999999"/>
-      <point x="11.605" y="4.300000000000001"/>
+      <point x="15.305" y="4.300000000000001"/>
       <type>ROUND</type>
       <holeSize value="1.5" unit="mm"/>
       <layer>_1</layer>
     </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad91</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="14.705" y="1.3"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad92</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="14.82" y="1.4829999999999992"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad95</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="14.725000000000001" y="1.6679999999999995"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderLug>
+      <name>SL1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="15.305" y="1.3"/>
+        <point x="15.305" y="1.63"/>
+        <point x="15.305" y="1.7049999999999996"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+    </diylc.connectivity.SolderLug>
+    <diylc.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="2.5" unit="mm"/>
+      <points>
+        <point x="14.305000000000001" y="1.2"/>
+        <point x="14.305000000000001" y="1.7999999999999998"/>
+        <point x="14.305000000000001" y="1.5"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="1.0" unit="M"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.shapes.Ellipse>
+      <name>ELL2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="14.405" y="1.3"/>
+        <point x="14.805" y="1.7"/>
+      </controlPoints>
+      <firstPoint x="14.405" y="1.3"/>
+      <secondPoint x="14.805" y="1.7"/>
+      <color hex="cccccc"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.shapes.Ellipse>
+      <name>ELL3</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="14.455" y="1.6499999999999997"/>
+        <point x="14.755" y="1.35"/>
+      </controlPoints>
+      <firstPoint x="14.455" y="1.35"/>
+      <secondPoint x="14.755" y="1.6499999999999997"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+    </diylc.shapes.Ellipse>
+    <diylc.passive.Resistor>
+      <name>R4</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="15.305" y="2.8"/>
+        <point x="15.305" y="4.300000000000001"/>
+        <point x="15.305" y="3.55"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="1.5" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.AxialElectrolyticCapacitor>
+      <name>C1</name>
+      <alpha>127</alpha>
+      <length value="13.0" unit="mm"/>
+      <width value="6.5" unit="mm"/>
+      <points>
+        <point x="15.53" y="4.1"/>
+        <point x="15.53" y="3.0"/>
+        <point x="15.53" y="3.55"/>
+      </points>
+      <bodyColor hex="000000"/>
+      <borderColor hex="a379a3"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="25.0" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="50.0" unit="V"/>
+      <markerColor hex="555555"/>
+      <tickColor hex="666666"/>
+      <polarized>true</polarized>
+    </diylc.passive.AxialElectrolyticCapacitor>
+    <diylc.tube.TubeSocket>
+      <name>V1</name>
+      <alpha>127</alpha>
+      <angle>270</angle>
+      <base>B9A</base>
+      <type>12AX7</type>
+      <color hex="f7f7ef"/>
+      <electrodeLabels>1,2,3,4,5,6,7,8,9</electrodeLabels>
+      <mount>CHASSIS</mount>
+      <labelColor hex="acaca7"/>
+      <controlPoints>
+        <point x="14.1" y="5.7"/>
+        <point x="14.245476849942388" y="5.4997682938922"/>
+        <point x="14.335386487783051" y="5.6235182938922"/>
+        <point x="14.335386487783051" y="5.776481706107799"/>
+        <point x="14.245476849942388" y="5.9002317061078"/>
+        <point x="14.1" y="5.9475"/>
+        <point x="13.954523150057613" y="5.9002317061078"/>
+        <point x="13.86461351221695" y="5.776481706107799"/>
+        <point x="13.86461351221695" y="5.6235182938922"/>
+        <point x="13.954523150057613" y="5.4997682938922"/>
+      </controlPoints>
+    </diylc.tube.TubeSocket>
+    <diylc.tube.TubeSocket>
+      <name>V2</name>
+      <alpha>127</alpha>
+      <angle>270</angle>
+      <base>B9A</base>
+      <type>ECL82</type>
+      <color hex="f7f7ef"/>
+      <electrodeLabels>1,2,3,4,5,6,7,8,9</electrodeLabels>
+      <mount>CHASSIS</mount>
+      <labelColor hex="acaca7"/>
+      <controlPoints>
+        <point x="12.5" y="5.700231706107799"/>
+        <point x="12.645476849942389" y="5.5"/>
+        <point x="12.735386487783051" y="5.62375"/>
+        <point x="12.735386487783051" y="5.776713412215599"/>
+        <point x="12.645476849942389" y="5.9004634122156"/>
+        <point x="12.5" y="5.9477317061078"/>
+        <point x="12.354523150057611" y="5.9004634122156"/>
+        <point x="12.264613512216949" y="5.776713412215599"/>
+        <point x="12.264613512216949" y="5.62375"/>
+        <point x="12.354523150057611" y="5.5"/>
+      </controlPoints>
+    </diylc.tube.TubeSocket>
+    <diylc.tube.TubeSocket>
+      <name>V3</name>
+      <alpha>127</alpha>
+      <angle>270</angle>
+      <base>B9A</base>
+      <type></type>
+      <color hex="f7f7ef"/>
+      <electrodeLabels>1,2,3,4,5,6,7,8,9</electrodeLabels>
+      <mount>CHASSIS</mount>
+      <labelColor hex="acaca7"/>
+      <controlPoints>
+        <point x="10.2" y="5.700231706107799"/>
+        <point x="10.345476849942388" y="5.5"/>
+        <point x="10.43538648778305" y="5.62375"/>
+        <point x="10.43538648778305" y="5.776713412215599"/>
+        <point x="10.345476849942388" y="5.9004634122156"/>
+        <point x="10.2" y="5.9477317061078"/>
+        <point x="10.054523150057612" y="5.9004634122156"/>
+        <point x="9.96461351221695" y="5.776713412215599"/>
+        <point x="9.96461351221695" y="5.62375"/>
+        <point x="10.054523150057612" y="5.5"/>
+      </controlPoints>
+    </diylc.tube.TubeSocket>
+    <diylc.tube.TubeSocket>
+      <name>V4</name>
+      <alpha>127</alpha>
+      <angle>270</angle>
+      <base>B9A</base>
+      <type></type>
+      <color hex="f7f7ef"/>
+      <electrodeLabels>1,2,3,4,5,6,7,8,9</electrodeLabels>
+      <mount>CHASSIS</mount>
+      <labelColor hex="acaca7"/>
+      <controlPoints>
+        <point x="8.6" y="5.700231706107799"/>
+        <point x="8.745476849942388" y="5.5"/>
+        <point x="8.835386487783051" y="5.62375"/>
+        <point x="8.835386487783051" y="5.776713412215599"/>
+        <point x="8.745476849942388" y="5.9004634122156"/>
+        <point x="8.6" y="5.9477317061078"/>
+        <point x="8.454523150057613" y="5.9004634122156"/>
+        <point x="8.36461351221695" y="5.776713412215599"/>
+        <point x="8.36461351221695" y="5.62375"/>
+        <point x="8.454523150057613" y="5.5"/>
+      </controlPoints>
+    </diylc.tube.TubeSocket>
+    <diylc.passive.Resistor>
+      <name>R2</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="14.905" y="3.1"/>
+        <point x="14.905" y="3.705"/>
+        <point x="14.905" y="3.4025"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="33.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.AxialFilmCapacitor>
+      <name>C2</name>
+      <alpha>127</alpha>
+      <length value="0.63" unit="in"/>
+      <width value="0.23" unit="in"/>
+      <points>
+        <point x="14.5" y="4.1"/>
+        <point x="14.5" y="3.1"/>
+        <point x="14.5" y="3.6249999999999996"/>
+      </points>
+      <bodyColor hex="ffff00"/>
+      <borderColor hex="b29e02"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="0.022" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="630.0" unit="V"/>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+    </diylc.passive.AxialFilmCapacitor>
+    <diylc.passive.Resistor>
+      <name>R3</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="14.1" y="3.7"/>
+        <point x="14.5" y="4.3"/>
+        <point x="14.3" y="4.0"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R6</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="14.1" y="3.7"/>
+        <point x="13.7" y="4.3"/>
+        <point x="13.9" y="4.0"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="100.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.AxialFilmCapacitor>
+      <name>C7</name>
+      <alpha>127</alpha>
+      <length value="0.63" unit="in"/>
+      <width value="0.23" unit="in"/>
+      <points>
+        <point x="13.7" y="4.1"/>
+        <point x="13.7" y="3.1"/>
+        <point x="13.7" y="3.6249999999999996"/>
+      </points>
+      <bodyColor hex="ffff00"/>
+      <borderColor hex="b29e02"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="0.022" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="630.0" unit="V"/>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+    </diylc.passive.AxialFilmCapacitor>
+    <diylc.passive.PotentiometerPanel>
+      <name>Volume</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="13.7" y="1.3"/>
+        <point x="13.4" y="1.3"/>
+        <point x="13.1" y="1.3"/>
+      </controlPoints>
+      <resistance value="1.0" unit="M"/>
+      <orientation>_180</orientation>
+      <taper>LOG</taper>
+      <bodyDiameter value="1.0" unit="in"/>
+      <spacing value="0.3" unit="in"/>
+      <lugDiameter value="0.15" unit="in"/>
+      <bodyColor hex="b6b6b6"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>ThroughHole</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.passive.PotentiometerPanel>
+      <name>Tone</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="12.4" y="1.3"/>
+        <point x="12.1" y="1.3"/>
+        <point x="11.8" y="1.3"/>
+      </controlPoints>
+      <resistance value="1.0" unit="M"/>
+      <orientation>_180</orientation>
+      <taper>LOG</taper>
+      <bodyDiameter value="1.0" unit="in"/>
+      <spacing value="0.3" unit="in"/>
+      <lugDiameter value="0.15" unit="in"/>
+      <bodyColor hex="b6b6b6"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>ThroughHole</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.passive.RadialMicaCapacitor>
+      <name>C3</name>
+      <alpha>127</alpha>
+      <length value="11.9" unit="mm"/>
+      <width value="5.3" unit="mm"/>
+      <points>
+        <point x="13.4" y="1.1"/>
+        <point x="12.4" y="1.1"/>
+        <point x="12.9" y="1.1000000000000005"/>
+      </points>
+      <bodyColor hex="876a6c"/>
+      <borderColor hex="5e4a4b"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="430.0" unit="pF"/>
+      <voltage value="500.0"/>
+    </diylc.passive.RadialMicaCapacitor>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C4</name>
+      <alpha>127</alpha>
+      <length value="10.0" unit="mm"/>
+      <width value="4.5" unit="mm"/>
+      <points>
+        <point x="11.5" y="1.3"/>
+        <point x="11.5" y="2.8"/>
+        <point x="11.5" y="2.05"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="5.0" unit="nF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="1.0" unit="KV"/>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.Resistor>
+      <name>R7</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="13.305" y="2.8"/>
+        <point x="13.3" y="3.7"/>
+        <point x="13.3025" y="3.25"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="1.5" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R21</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="13.3" y="3.7"/>
+        <point x="12.9" y="3.1"/>
+        <point x="13.099999999999998" y="3.3999999999999977"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="56.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R5</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="12.5" y="4.3"/>
+        <point x="12.9" y="3.7"/>
+        <point x="12.7" y="3.9999999999999942"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="56.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.AxialFilmCapacitor>
+      <name>C5</name>
+      <alpha>127</alpha>
+      <length value="0.63" unit="in"/>
+      <width value="0.23" unit="in"/>
+      <points>
+        <point x="12.5" y="4.1"/>
+        <point x="12.5" y="3.1"/>
+        <point x="12.5" y="3.6249999999999996"/>
+      </points>
+      <bodyColor hex="ffff00"/>
+      <borderColor hex="b29e02"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="0.1" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="630.0" unit="V"/>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+    </diylc.passive.AxialFilmCapacitor>
+    <diylc.passive.Resistor>
+      <name>R10</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="13.305000000000001" y="2.8"/>
+        <point x="13.7" y="3.1"/>
+        <point x="13.5025" y="2.95"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="1.0" unit="M"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.HookupWire>
+      <name>W54</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="15.305" y="2.8"/>
+        <point x="15.3" y="2.6"/>
+        <point x="15.305" y="1.7049999999999996"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_20</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W38</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.705" y="1.3"/>
+        <point x="14.905" y="1.3"/>
+        <point x="14.82" y="1.4829999999999992"/>
+      </controlPoints2>
+      <color hex="666666"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W39</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.305000000000001" y="1.2"/>
+        <point x="14.505" y="1.2"/>
+        <point x="14.705" y="1.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.82" y="1.4829999999999992"/>
+        <point x="15.1" y="2.1999999999999997"/>
+        <point x="15.105" y="2.8"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W39</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.305000000000001" y="1.7999999999999998"/>
+        <point x="14.505" y="1.7999999999999998"/>
+        <point x="14.725000000000001" y="1.6679999999999995"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W40</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.725000000000001" y="1.6679999999999995"/>
+        <point x="14.9" y="2.6"/>
+        <point x="14.9" y="3.1"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W3</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="15.3" y="4.1"/>
+        <point x="15.53" y="4.1"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W2</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="15.3" y="3.0"/>
+        <point x="15.53" y="3.0"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W21</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="15.3" y="4.5"/>
+        <point x="15.1" y="5.2"/>
+        <point x="14.335386487783051" y="5.776481706107799"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W11</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.9" y="4.3"/>
+        <point x="14.8" y="5.1"/>
+        <point x="14.335386487783051" y="5.6235182938922"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W27</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.5" y="4.5"/>
+        <point x="14.5" y="5.0"/>
+        <point x="14.245476849942388" y="5.4997682938922"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W4</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.5" y="4.1000000000000005"/>
+        <point x="14.5" y="4.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W5</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.7" y="4.1"/>
+        <point x="13.7" y="4.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W6</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.7" y="1.3"/>
+        <point x="14.3" y="2.2"/>
+        <point x="14.5" y="3.1"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W10</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.3" y="4.3"/>
+        <point x="13.4" y="5.1"/>
+        <point x="13.86461351221695" y="5.6235182938922"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.misc.Label>
+      <name>LAB4</name>
+      <point x="15.5" y="1.5999999999999996"/>
+      <text>Preamp Ground</text>
+      <font name="Open Sans Regular" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_90</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L3</name>
+      <point x="14.825" y="1.1829999999999996"/>
+      <text>G</text>
+      <font name="Tahoma" size="18" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L3</name>
+      <point x="14.925" y="1.4829999999999992"/>
+      <text>S</text>
+      <font name="Tahoma" size="18" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L3</name>
+      <point x="14.825" y="1.7829999999999993"/>
+      <text>T</text>
+      <font name="Tahoma" size="18" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB11</name>
+      <point x="14.605" y="1.1"/>
+      <text>Input</text>
+      <font name="Open Sans Regular" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.HookupWire>
+      <name>W9</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="14.1" y="4.3"/>
+        <point x="14.2" y="5.5"/>
+        <point x="13.86461351221695" y="5.776481706107799"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W12</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.7" y="4.5"/>
+        <point x="13.6" y="5.8"/>
+        <point x="13.954523150057613" y="5.9002317061078"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W13</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.4" y="1.3"/>
+        <point x="12.4" y="1.1"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W14</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.4" y="1.1"/>
+        <point x="13.4" y="1.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W7</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.4" y="1.3"/>
+        <point x="13.9" y="2.1"/>
+        <point x="14.1" y="3.1"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W15</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="13.1" y="1.3"/>
+        <point x="13.0" y="2.0"/>
+        <point x="13.1" y="2.8"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W16</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.1" y="1.3"/>
+        <point x="12.4" y="0.8"/>
+        <point x="13.4" y="0.8"/>
+        <point x="13.7" y="1.3"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W17</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="11.5" y="1.3"/>
+        <point x="11.8" y="1.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W19</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.9" y="4.3"/>
+        <point x="12.9" y="4.8"/>
+        <point x="12.645476849942389" y="5.5"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W22</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.5" y="4.5"/>
+        <point x="12.5" y="5.0"/>
+        <point x="12.354523150057611" y="5.5"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W23</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.5" y="4.1"/>
+        <point x="12.5" y="4.3"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups>
     <set>
       <null/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[115]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[24]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[17]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[84]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[22]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[105]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[28]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[135]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[15]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[82]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[28]"/>
     </set>
     <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[75]"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[8]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[125]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[26]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[6]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[73]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[110]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[23]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[83]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[16]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[78]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[11]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[14]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[81]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[143]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[30]"/>
     </set>
     <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[10]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[77]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[74]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[7]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[9]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[76]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[100]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[21]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[30]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[143]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[85]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[18]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[29]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[140]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[95]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[20]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[71]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[4]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[6]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[73]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[3]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[70]"/>
-    </set>
-    <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[120]"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[25]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[90]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[19]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[21]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[100]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[84]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[17]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[11]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[78]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[80]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[13]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[5]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[72]"/>
     </set>
     <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[130]"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[27]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[13]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[80]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[72]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[5]"/>
-    </set>
-    <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[69]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[79]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[74]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[7]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[16]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[83]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[105]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[22]"/>
+    </set>
+    <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[12]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[79]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[9]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[76]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[110]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[23]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[29]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[140]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[26]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[125]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[19]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[90]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[81]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[14]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[4]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[71]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[145]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[146]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[144]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[70]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[3]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[18]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[85]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[24]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[115]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[95]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[20]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[82]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[15]"/>
     </set>
   </groups>
-  <lockedLayers/>
+  <lockedLayers>
+    <int>2</int>
+    <int>3</int>
+  </lockedLayers>
   <lockedComponents/>
   <hiddenLayers/>
   <font name="Open Sans Regular" size="14" style="0"/>
