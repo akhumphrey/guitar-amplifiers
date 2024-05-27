@@ -14,22 +14,6 @@
   <dotSpacing>1</dotSpacing>
   <components>
     <diylc.connectivity.HookupWire>
-      <name>W24</name>
-      <alpha>50</alpha>
-      <controlPoints2>
-        <point x="13.3" y="3.7"/>
-        <point x="13.3" y="4.3"/>
-      </controlPoints2>
-      <color hex="333333"/>
-      <pointCount>TWO</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
       <name>W18</name>
       <alpha>50</alpha>
       <controlPoints2>
@@ -47,6 +31,38 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
+      <name>W25</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="12.1" y="3.7"/>
+        <point x="12.1" y="4.3"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W30</name>
+      <alpha>50</alpha>
+      <controlPoints2>
+        <point x="10.5" y="3.7"/>
+        <point x="10.5" y="4.3"/>
+      </controlPoints2>
+      <color hex="0088cc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
       <name>W8</name>
       <alpha>50</alpha>
       <controlPoints2>
@@ -56,22 +72,6 @@
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <name>W20</name>
-      <alpha>50</alpha>
-      <controlPoints2>
-        <point x="14.9" y="3.7"/>
-        <point x="14.9" y="4.3"/>
-      </controlPoints2>
-      <color hex="ffff00"/>
-      <pointCount>TWO</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
@@ -2136,16 +2136,16 @@
       <mount>CHASSIS</mount>
       <labelColor hex="acaca7"/>
       <controlPoints>
-        <point x="14.1" y="5.7"/>
-        <point x="14.245476849942388" y="5.4997682938922"/>
-        <point x="14.335386487783051" y="5.6235182938922"/>
-        <point x="14.335386487783051" y="5.776481706107799"/>
-        <point x="14.245476849942388" y="5.9002317061078"/>
-        <point x="14.1" y="5.9475"/>
-        <point x="13.954523150057613" y="5.9002317061078"/>
-        <point x="13.86461351221695" y="5.776481706107799"/>
-        <point x="13.86461351221695" y="5.6235182938922"/>
-        <point x="13.954523150057613" y="5.4997682938922"/>
+        <point x="14.1" y="5.4"/>
+        <point x="14.245476849942388" y="5.1997682938922"/>
+        <point x="14.335386487783051" y="5.3235182938922"/>
+        <point x="14.335386487783051" y="5.4764817061077995"/>
+        <point x="14.245476849942388" y="5.6002317061078"/>
+        <point x="14.1" y="5.6475"/>
+        <point x="13.954523150057613" y="5.6002317061078"/>
+        <point x="13.86461351221695" y="5.4764817061077995"/>
+        <point x="13.86461351221695" y="5.3235182938922"/>
+        <point x="13.954523150057613" y="5.1997682938922"/>
       </controlPoints>
     </diylc.tube.TubeSocket>
     <diylc.tube.TubeSocket>
@@ -2159,16 +2159,16 @@
       <mount>CHASSIS</mount>
       <labelColor hex="acaca7"/>
       <controlPoints>
-        <point x="12.5" y="5.700231706107799"/>
-        <point x="12.645476849942389" y="5.5"/>
-        <point x="12.735386487783051" y="5.62375"/>
-        <point x="12.735386487783051" y="5.776713412215599"/>
-        <point x="12.645476849942389" y="5.9004634122156"/>
-        <point x="12.5" y="5.9477317061078"/>
-        <point x="12.354523150057611" y="5.9004634122156"/>
-        <point x="12.264613512216949" y="5.776713412215599"/>
-        <point x="12.264613512216949" y="5.62375"/>
-        <point x="12.354523150057611" y="5.5"/>
+        <point x="12.3" y="5.4002317061078"/>
+        <point x="12.445476849942388" y="5.2"/>
+        <point x="12.53538648778305" y="5.32375"/>
+        <point x="12.53538648778305" y="5.4767134122156"/>
+        <point x="12.445476849942388" y="5.6004634122156"/>
+        <point x="12.3" y="5.6477317061078"/>
+        <point x="12.154523150057612" y="5.6004634122156"/>
+        <point x="12.06461351221695" y="5.4767134122156"/>
+        <point x="12.06461351221695" y="5.32375"/>
+        <point x="12.154523150057612" y="5.2"/>
       </controlPoints>
     </diylc.tube.TubeSocket>
     <diylc.tube.TubeSocket>
@@ -2182,16 +2182,16 @@
       <mount>CHASSIS</mount>
       <labelColor hex="acaca7"/>
       <controlPoints>
-        <point x="10.2" y="5.700231706107799"/>
-        <point x="10.345476849942388" y="5.5"/>
-        <point x="10.43538648778305" y="5.62375"/>
-        <point x="10.43538648778305" y="5.776713412215599"/>
-        <point x="10.345476849942388" y="5.9004634122156"/>
-        <point x="10.2" y="5.9477317061078"/>
-        <point x="10.054523150057612" y="5.9004634122156"/>
-        <point x="9.96461351221695" y="5.776713412215599"/>
-        <point x="9.96461351221695" y="5.62375"/>
-        <point x="10.054523150057612" y="5.5"/>
+        <point x="9.899999999999999" y="5.4002317061078"/>
+        <point x="10.045476849942387" y="5.2"/>
+        <point x="10.13538648778305" y="5.32375"/>
+        <point x="10.13538648778305" y="5.4767134122156"/>
+        <point x="10.045476849942387" y="5.6004634122156"/>
+        <point x="9.899999999999999" y="5.6477317061078"/>
+        <point x="9.754523150057612" y="5.6004634122156"/>
+        <point x="9.664613512216949" y="5.4767134122156"/>
+        <point x="9.664613512216949" y="5.32375"/>
+        <point x="9.754523150057612" y="5.2"/>
       </controlPoints>
     </diylc.tube.TubeSocket>
     <diylc.tube.TubeSocket>
@@ -2205,16 +2205,16 @@
       <mount>CHASSIS</mount>
       <labelColor hex="acaca7"/>
       <controlPoints>
-        <point x="8.6" y="5.700231706107799"/>
-        <point x="8.745476849942388" y="5.5"/>
-        <point x="8.835386487783051" y="5.62375"/>
-        <point x="8.835386487783051" y="5.776713412215599"/>
-        <point x="8.745476849942388" y="5.9004634122156"/>
-        <point x="8.6" y="5.9477317061078"/>
-        <point x="8.454523150057613" y="5.9004634122156"/>
-        <point x="8.36461351221695" y="5.776713412215599"/>
-        <point x="8.36461351221695" y="5.62375"/>
-        <point x="8.454523150057613" y="5.5"/>
+        <point x="5.0" y="5.4"/>
+        <point x="5.145476849942388" y="5.1997682938922"/>
+        <point x="5.2353864877830505" y="5.3235182938922"/>
+        <point x="5.2353864877830505" y="5.4764817061077995"/>
+        <point x="5.145476849942388" y="5.6002317061078"/>
+        <point x="5.0" y="5.6475"/>
+        <point x="4.854523150057613" y="5.6002317061078"/>
+        <point x="4.76461351221695" y="5.4764817061077995"/>
+        <point x="4.76461351221695" y="5.3235182938922"/>
+        <point x="4.854523150057613" y="5.1997682938922"/>
       </controlPoints>
     </diylc.tube.TubeSocket>
     <diylc.passive.Resistor>
@@ -2224,8 +2224,8 @@
       <width value="3.0" unit="mm"/>
       <points>
         <point x="14.905" y="3.1"/>
-        <point x="14.905" y="3.705"/>
-        <point x="14.905" y="3.4025"/>
+        <point x="14.9" y="4.3"/>
+        <point x="14.9025" y="3.7"/>
       </points>
       <bodyColor hex="996600"/>
       <borderColor hex="5b90b1"/>
@@ -2435,8 +2435,8 @@
       <width value="3.0" unit="mm"/>
       <points>
         <point x="13.305" y="2.8"/>
-        <point x="13.3" y="3.7"/>
-        <point x="13.3025" y="3.25"/>
+        <point x="13.3" y="4.3"/>
+        <point x="13.3025" y="3.55"/>
       </points>
       <bodyColor hex="3300cc"/>
       <borderColor hex="5b90b1"/>
@@ -2458,9 +2458,9 @@
       <length value="7.0" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="13.3" y="3.7"/>
+        <point x="13.3" y="4.3"/>
         <point x="12.9" y="3.1"/>
-        <point x="13.099999999999998" y="3.3999999999999977"/>
+        <point x="13.099999999999998" y="3.6999999999999975"/>
       </points>
       <bodyColor hex="996600"/>
       <borderColor hex="5b90b1"/>
@@ -2478,14 +2478,14 @@
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
-      <name>R5</name>
+      <name>R13</name>
       <alpha>127</alpha>
       <length value="7.0" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="12.5" y="4.3"/>
-        <point x="12.9" y="3.7"/>
-        <point x="12.7" y="3.9999999999999942"/>
+        <point x="11.7" y="4.3"/>
+        <point x="11.3" y="4.3"/>
+        <point x="11.499999999999998" y="4.3"/>
       </points>
       <bodyColor hex="996600"/>
       <borderColor hex="5b90b1"/>
@@ -2503,14 +2503,14 @@
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
     <diylc.passive.AxialFilmCapacitor>
-      <name>C5</name>
+      <name>C11</name>
       <alpha>127</alpha>
       <length value="0.63" unit="in"/>
       <width value="0.23" unit="in"/>
       <points>
-        <point x="12.5" y="4.1"/>
-        <point x="12.5" y="3.1"/>
-        <point x="12.5" y="3.6249999999999996"/>
+        <point x="11.7" y="3.3"/>
+        <point x="11.7" y="4.3"/>
+        <point x="11.700000000000005" y="3.7750000000000083"/>
       </points>
       <bodyColor hex="ffff00"/>
       <borderColor hex="b29e02"/>
@@ -2520,6 +2520,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="630.0" unit="V"/>
@@ -2532,9 +2533,9 @@
       <length value="7.0" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="13.305000000000001" y="2.8"/>
-        <point x="13.7" y="3.1"/>
-        <point x="13.5025" y="2.95"/>
+        <point x="12.7" y="3.5"/>
+        <point x="12.9" y="4.3"/>
+        <point x="12.8" y="3.9"/>
       </points>
       <bodyColor hex="996600"/>
       <borderColor hex="5b90b1"/>
@@ -2544,12 +2545,198 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="1.0" unit="W"/>
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R8</name>
+      <alpha>127</alpha>
+      <length value="7.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="12.7" y="3.5"/>
+        <point x="12.7" y="2.8"/>
+        <point x="12.699999999999998" y="3.1499999999999972"/>
+      </points>
+      <bodyColor hex="996600"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="56.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R14</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="12.7" y="3.5"/>
+        <point x="12.5" y="4.3"/>
+        <point x="12.6" y="3.9"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.AxialFilmCapacitor>
+      <name>C12</name>
+      <alpha>127</alpha>
+      <length value="0.63" unit="in"/>
+      <width value="0.23" unit="in"/>
+      <points>
+        <point x="10.9" y="3.3"/>
+        <point x="10.9" y="4.3"/>
+        <point x="10.899999999999993" y="3.7750000000000035"/>
+      </points>
+      <bodyColor hex="ffff00"/>
+      <borderColor hex="b29e02"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="0.1" unit="uF"/>
+      <voltage>_63V</voltage>
+      <voltageNew value="630.0" unit="V"/>
+      <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
+    </diylc.passive.AxialFilmCapacitor>
+    <diylc.passive.Resistor>
+      <name>R17</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="11.7" y="3.1"/>
+        <point x="11.3" y="3.7"/>
+        <point x="11.5" y="3.4"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="220.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R18</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="4.0" unit="mm"/>
+      <points>
+        <point x="10.9" y="3.1"/>
+        <point x="11.3" y="3.7"/>
+        <point x="11.1" y="3.4"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="220.0" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R19</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="12.1" y="3.7"/>
+        <point x="11.7" y="3.1"/>
+        <point x="11.9" y="3.4"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.5" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R20</name>
+      <alpha>127</alpha>
+      <length value="11.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="10.5" y="3.7"/>
+        <point x="10.9" y="3.1"/>
+        <point x="10.7" y="3.4"/>
+      </points>
+      <bodyColor hex="3300cc"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.5" unit="K"/>
+      <power>HALF</power>
+      <powerNew value="1.0" unit="W"/>
+      <colorCode>_4_BAND</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.connectivity.SolderLug>
+      <name>SL2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="11.305" y="5.5"/>
+        <point x="11.305" y="5.83"/>
+        <point x="11.305" y="5.905"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+    </diylc.connectivity.SolderLug>
     <diylc.connectivity.HookupWire>
       <name>W54</name>
       <alpha>127</alpha>
@@ -2690,7 +2877,7 @@
       <controlPoints2>
         <point x="15.3" y="4.5"/>
         <point x="15.1" y="5.2"/>
-        <point x="14.335386487783051" y="5.776481706107799"/>
+        <point x="14.335386487783051" y="5.4764817061077995"/>
       </controlPoints2>
       <color hex="333333"/>
       <pointCount>THREE</pointCount>
@@ -2705,9 +2892,9 @@
       <name>W11</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="14.9" y="4.3"/>
+        <point x="14.9" y="4.5"/>
         <point x="14.8" y="5.1"/>
-        <point x="14.335386487783051" y="5.6235182938922"/>
+        <point x="14.335386487783051" y="5.3235182938922"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>THREE</pointCount>
@@ -2724,7 +2911,7 @@
       <controlPoints2>
         <point x="14.5" y="4.5"/>
         <point x="14.5" y="5.0"/>
-        <point x="14.245476849942388" y="5.4997682938922"/>
+        <point x="14.245476849942388" y="5.1997682938922"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>THREE</pointCount>
@@ -2788,9 +2975,9 @@
       <name>W10</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="13.3" y="4.3"/>
+        <point x="13.3" y="4.5"/>
         <point x="13.4" y="5.1"/>
-        <point x="13.86461351221695" y="5.6235182938922"/>
+        <point x="13.86461351221695" y="5.3235182938922"/>
       </controlPoints2>
       <color hex="333333"/>
       <pointCount>THREE</pointCount>
@@ -2856,8 +3043,8 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="14.1" y="4.3"/>
-        <point x="14.2" y="5.5"/>
-        <point x="13.86461351221695" y="5.776481706107799"/>
+        <point x="14.2" y="5.2"/>
+        <point x="13.86461351221695" y="5.4764817061077995"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>THREE</pointCount>
@@ -2873,8 +3060,8 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="13.7" y="4.5"/>
-        <point x="13.6" y="5.8"/>
-        <point x="13.954523150057613" y="5.9002317061078"/>
+        <point x="13.6" y="5.6"/>
+        <point x="13.954523150057613" y="5.6002317061078"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>THREE</pointCount>
@@ -2989,9 +3176,9 @@
       <name>W19</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="12.9" y="4.3"/>
-        <point x="12.9" y="4.8"/>
-        <point x="12.645476849942389" y="5.5"/>
+        <point x="12.9" y="4.5"/>
+        <point x="12.8" y="5.0"/>
+        <point x="12.445476849942388" y="5.2"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>THREE</pointCount>
@@ -3006,9 +3193,9 @@
       <name>W22</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="12.5" y="4.5"/>
-        <point x="12.5" y="5.0"/>
-        <point x="12.354523150057611" y="5.5"/>
+        <point x="11.7" y="4.5"/>
+        <point x="12.0" y="5.1"/>
+        <point x="12.154523150057612" y="5.2"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>THREE</pointCount>
@@ -3020,11 +3207,28 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
-      <name>W23</name>
+      <name>W26</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="12.5" y="4.1"/>
-        <point x="12.5" y="4.3"/>
+        <point x="12.5" y="4.5"/>
+        <point x="12.3" y="5.4"/>
+        <point x="12.06461351221695" y="5.32375"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W20</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="11.7" y="3.1"/>
+        <point x="11.7" y="3.3000000000000007"/>
       </controlPoints2>
       <color hex="cccccc"/>
       <pointCount>TWO</pointCount>
@@ -3035,136 +3239,238 @@
       <striped>false</striped>
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W23</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="10.9" y="3.1"/>
+        <point x="10.9" y="3.3000000000000007"/>
+      </controlPoints2>
+      <color hex="cccccc"/>
+      <pointCount>TWO</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_26</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W24</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.1" y="4.3"/>
+        <point x="12.3" y="5.3"/>
+        <point x="12.53538648778305" y="5.4767134122156"/>
+      </controlPoints2>
+      <color hex="ffff00"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W28</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="10.9" y="4.5"/>
+        <point x="11.5" y="5.2"/>
+        <point x="12.06461351221695" y="5.32375"/>
+      </controlPoints2>
+      <color hex="0088cc"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W29</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="10.5" y="4.3"/>
+        <point x="10.5" y="5.3"/>
+        <point x="10.13538648778305" y="5.4767134122156"/>
+      </controlPoints2>
+      <color hex="0088cc"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W31</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="12.53538648778305" y="5.32375"/>
+        <point x="13.1" y="5.9"/>
+        <point x="11.8" y="6.0"/>
+        <point x="11.3" y="5.9"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W32</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="11.305" y="5.83"/>
+        <point x="10.6" y="5.7"/>
+        <point x="10.13538648778305" y="5.32375"/>
+      </controlPoints2>
+      <color hex="333333"/>
+      <pointCount>THREE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups>
     <set>
       <null/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[135]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[28]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[75]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[8]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[6]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[73]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[143]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[30]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[10]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[77]"/>
-    </set>
-    <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[120]"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[25]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[21]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[100]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[14]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[81]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[84]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[17]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[11]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[78]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[80]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[13]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[5]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[72]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[130]"/>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[27]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[130]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[69]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[74]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[7]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[16]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[83]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[105]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[22]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[20]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[95]"/>
     </set>
     <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[12]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[79]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[9]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[76]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[82]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[15]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[110]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[23]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[11]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[78]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[29]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[140]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[26]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[125]"/>
-    </set>
-    <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[19]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[90]"/>
-    </set>
-    <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[81]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[14]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[146]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[145]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[144]"/>
     </set>
     <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[4]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[71]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[145]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[146]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[144]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[6]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[73]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[70]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[100]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[21]"/>
+    </set>
+    <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[3]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[70]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[80]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[13]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[83]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[16]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[115]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[24]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[19]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[90]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[7]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[74]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[125]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[26]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[135]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[28]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[105]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[22]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[23]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[110]"/>
+    </set>
+    <set>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[75]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[8]"/>
     </set>
     <set>
       <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[18]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[85]"/>
     </set>
     <set>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[24]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[115]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[69]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[2]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[95]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[20]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[84]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[17]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[82]"/>
-      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[15]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[72]"/>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[5]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[30]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[143]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[9]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[76]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[10]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[77]"/>
+    </set>
+    <set>
+      <diylc.connectivity.CopperTrace reference="../../../components/diylc.connectivity.CopperTrace[29]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[140]"/>
     </set>
   </groups>
   <lockedLayers>
