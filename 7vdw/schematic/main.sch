@@ -1,6 +1,6 @@
 <Qucs Schematic 24.2.1>
 <Properties>
-  <View=439,129,1952,1391,1.67397,616,490>
+  <View=19,90,2372,1430,1.34018,1041,330>
   <Grid=10,10,1>
   <DataSet=main.dat>
   <DataDisplay=main.dpl>
@@ -86,13 +86,13 @@
   <Lib V2a 1 1220 700 -40 -73 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
   <Lib V3a 1 1030 370 -39 -72 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "5751" 0>
   <Lib V1b 1 980 760 -46 -73 0 0 "Tubes" 0 "12AX7" 0>
-  <Lib V3b 1 1580 620 -44 -81 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
-  <Lib V2b 1 1580 780 -38 64 1 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
   <C C9 1 1180 250 -45 12 1 1 "0.022 uF" 0 "630" 0 "neutral" 0>
   <C C15 1 1480 1140 27 -8 0 3 "40 uF" 0 "450" 0 "polar" 0>
   <C C14 1 1690 1140 25 -8 0 3 "40 uF" 0 "450" 0 "polar" 0>
   <C C16 1 1380 1140 21 -9 0 3 "20 uF" 0 "450" 0 "polar" 0>
   <C C1 1 620 860 -38 -26 0 3 "25 uF" 0 "50" 0 "polar" 0>
+  <Lib V3b 1 1580 780 -38 64 1 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
+  <Lib V2b 1 1580 620 -44 -81 0 0 "/home/ah/.qucs/user_lib/Tubes" 0 "EL84" 0>
 </Components>
 <Wires>
   <630 700 650 700 "" 0 0 0 "">
