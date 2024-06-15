@@ -31,15 +31,30 @@ Lastly, I have replaced the 30k resistor in the negative bias circuit with a 10k
 
 ![schematic](schematic/main.png)
 
-- [bom.csv](bom.csv) - a simple Bill of Materials for the major components (excludes wiring, transformers, and off-board hardware).
-- [layouts/main.diy](layouts/main.diy) - the main chassis layout in [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) format. This layout includes the turret boards themselves, all components, all off-board wiring, all hardware and wiring for both transformers. The intent is to keep the turret board free from fly wires running over the top of components, whilst keeping the wiring as tidy as possible.
-- [layouts/main.pdf](layouts/main.pdf) - a vector PDF render of the main turret chassis layout, exported from DIY Layout Creator.
-- [layouts/main.png](layouts/main.png) - an image render of the main turret layout, as seen at the top of this README.
-- [schematic/main.sch](schematic/main.sch) - the schematic, in [Qucs-S](https://ra3xdh.github.io/) format.
+### Layouts
+The layout files were created with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator). The layouts include:
+- the turret/eyelet boards themselves
+- all componets
+- all off-board and underside wiring
+- all hardware
+- and wiring for both transformers.
+
+I've tried to keep the wires from obscuring the board as much as possible, and to keep the crossing of wires to a minimum. Obviously this became somewhat less successful at the ECL82 tubes!
+All topside wiring is rendered using solid lines, where underside wiring is indicated using _dashed_ lines. Additionally, any eyelet/turret junction which sees significant voltage (30+V) has been rendered in **red**, usually because one of the B+ lines runs through the joint.
+
+- [layouts/main.diy](layouts/main.diy) - the main chassis layout, in DIYLC format.
+- [layouts/main.pdf](layouts/main.pdf) - a vector PDF render of the main turret chassis layout, exported from DIYLC.
+- [layouts/main.png](layouts/main.png) - a raster image render of the main turret layout, as seen at the top of this README.
+
+### Schematic
+The schematic has been provided in [Qucs-S](https://ra3xdh.github.io/) format, but **no effort** has been taken to make the circuit suitable for using with any of the SPICE derivatives.
+
+- [schematic/main.sch](schematic/main.sch) - the schematic itself.
 - [schematic/main.png](schematic/main.png) - an image render of the schematic, as seen at the top of this section.
 - [schematic/tubes.lib](schematic/tubes.lib) - a Qucs-S library which contains custom schematic symbols for the vacuum tubes in my designs.
 
-Be aware that the PDF and PNG renders from DIY Layout Creator do not show any transparency on the boards. As such, all of the underside wiring is completely obscured. These wires are clearly visible within the application.
+### Misc
+- [bom.csv](bom.csv) - a simple Bill of Materials for the major components. Excludes wiring, transformers, and off-board hardware.
 
 ## Summary
 
