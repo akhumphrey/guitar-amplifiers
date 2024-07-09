@@ -1,6 +1,6 @@
 # 7vdw Amplifier
 
-[![layout](layouts/main.png)](layouts/main.pdf)
+[![layout](layout/main.png)](layout/main.pdf)
 
 This directory contains the source files for the 7vdw tube amplifier as I go through the process of designing and building the prototype.
 
@@ -31,8 +31,8 @@ Lastly, I have replaced the 30k resistor in the negative bias circuit with a 10k
 
 ![schematic](schematic/main.png)
 
-### Layouts
-The layout files were created with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator). The layouts include:
+### Layout
+The layout files were created with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator). The layout includes:
 - the turret/eyelet boards themselves
 - all componets
 - all off-board and underside wiring
@@ -42,9 +42,9 @@ The layout files were created with [DIY Layout Creator](https://github.com/banci
 I've tried to keep the wires from obscuring the board as much as possible, and to keep the crossing of wires to a minimum. Obviously this became somewhat less successful at the ECL82 tubes!
 All topside wiring is rendered using solid lines, where underside wiring is indicated using _dashed_ lines. Additionally, any eyelet/turret junction which sees significant voltage (30+V) has been rendered in **red**, usually because one of the B+ lines runs through the joint.
 
-- [layouts/main.diy](layouts/main.diy) - the main chassis layout, in DIYLC format.
-- [layouts/main.pdf](layouts/main.pdf) - a vector PDF render of the main turret chassis layout, exported from DIYLC.
-- [layouts/main.png](layouts/main.png) - a raster image render of the main turret layout, as seen at the top of this README.
+- [layout/main.diy](layout/main.diy) - the main chassis layout, in DIYLC format.
+- [layout/main.pdf](layout/main.pdf) - a vector PDF render of the main turret chassis layout, exported from DIYLC.
+- [layout/main.png](layout/main.png) - a raster image render of the main turret layout, as seen at the top of this README.
 
 ### Schematic
 The schematic has been provided in [Qucs-S](https://ra3xdh.github.io/) format, but **no effort** has been taken to make the circuit suitable for using with any of the SPICE derivatives.
